@@ -1,0 +1,9 @@
+vim
+eslint
+gitlens
+prettier
+gruvbox theme
+solarized theem
+material icon theme
+restore git branches
+visual studio intellicode

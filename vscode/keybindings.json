@@ -1,0 +1,63 @@
+[
+  {
+    "key": "cmd+k",
+    "command": "workbench.action.nextEditor"
+  },
+  {
+    "key": "cmd+j",
+    "command": "workbench.action.previousEditor"
+  },
+  {
+    "key": "tab",
+    "command": "tab",
+    "when": "editorTextFocus && !editorTabMovesFocus"
+  },
+  {
+    "key": "shift+tab",
+    "command": "outdent",
+    "when": "editorTextFocus && !editorTabMovesFocus"
+  },
+  {
+    "key": "shift+cmd+r",
+    "command": "extension.reval"
+  },
+  {
+    "key": "cmd+enter",
+    "command": "filesExplorer.openFilePreserveFocus",
+    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsFolder && !inputFocus"
+  },
+  {
+    "key": "ctrl+cmd+g",
+    "command": "git.checkout"
+  },
+  {
+    "key": "ctrl+l",
+    "command": "editor.action.insertSnippet",
+    "when": "editorTextFocus",
+    "args": {
+      "snippet": "console.log('${TM_SELECTED_TEXT}$1')$2;"
+    }
+  },
+  {
+    "key": "ctrl+t",
+    "command": "workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "ctrl+`",
+    "command": "-workbench.action.terminal.toggleTerminal"
+  },
+  {
+    "key": "cmd+ctrl+j",
+    "command": "moveActiveEditor",
+    "args": {
+      "to": "left"
+    }
+  },
+  {
+    "key": "cmd+ctrl+k",
+    "command": "moveActiveEditor",
+    "args": {
+      "to": "right"
+    }
+  }
+]
