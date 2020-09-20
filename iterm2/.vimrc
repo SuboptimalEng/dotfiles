@@ -12,4 +12,7 @@ set nobackup
 set noswapfile
 set nowrap
 
+:autocmd InsertEnter * set cul
+:autocmd InsertLeave * set nocul
+
 inoremap kj <ESC>

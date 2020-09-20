@@ -3,6 +3,12 @@ function zle-keymap-select() {
   # update keymap variable for the prompt
   VI_KEYMAP=$KEYMAP
 
+  # change cursor style in vi-mode
+  case $KEYMAP in
+    vicmd)      print -n -- "\E]50;CursorShape=0\C-G";; # block cursor
+    viins|main) print -n -- "\E]50;CursorShape=1\C-G";; # line cursor
+  esac
+
   zle reset-prompt
   zle -R
 }
@@ -49,9 +55,9 @@ bindkey '^ ' end-of-line
 bindkey '^a' beginning-of-line
 
 # if mode indicator wasn't setup by theme, define defau
-if [[ "$MODE_INDICATOR" == "" ]]; then
-  MODE_INDICATOR="%{$fg_bold[red]%}<%{$fg[red]%}<<%{$re
-fi
+# if [[ "$MODE_INDICATOR" == "" ]]; then
+#   MODE_INDICATOR="%{$fg_bold[red]%}<%{$fg[red]%}<<%{$re
+# fi
 
 function vi_mode_prompt_info() {
   echo "${${VI_KEYMAP/vicmd/$MODE_INDICATOR}/(main|viin
