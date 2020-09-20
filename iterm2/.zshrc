@@ -5,7 +5,7 @@ export ZSH="/Users/telugugameboy/.oh-my-zsh"
 DISABLE_AUTO_TITLE="true"
 
 # Setup some nice keybindings.
-bindkey '^ ' autosuggest-accept
+# bindkey '^ ' autosuggest-accept
 
 # Set name of the theme to load --- if set to "random", it will
 # load a random theme each time oh-my-zsh is loaded, in which case,
@@ -20,6 +20,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
+  vi-mode
   zsh-autosuggestions
 )
 
@@ -29,8 +30,8 @@ source $ZSH/oh-my-zsh.sh
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
 # users are encouraged to define aliases within the ZSH_CUSTOM folder.
 # For a full list of active aliases, run `alias`.
-alias zshconfig="vim ~/.zshrc"
-alias ohmyzsh="vim ~/.oh-my-zsh"
+# alias zshconfig="vim ~/.zshrc"
+# alias ohmyzsh="vim ~/.oh-my-zsh"
 alias ls="ls -A"
 
 # Simplicity at it's finest.
