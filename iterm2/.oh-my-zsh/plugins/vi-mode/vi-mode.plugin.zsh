@@ -44,8 +44,9 @@ bindkey '^w' backward-kill-word
 bindkey '/' history-incremental-search-backward
 bindkey '^s' history-incremental-search-forward
 # allow ctrl-a and ctrl-e to move to beginning/end of l
-bindkey '^a' beginning-of-line
+# bindkey '^e' end-of-line
 bindkey '^ ' end-of-line
+bindkey '^a' beginning-of-line
 
 # if mode indicator wasn't setup by theme, define defau
 if [[ "$MODE_INDICATOR" == "" ]]; then
