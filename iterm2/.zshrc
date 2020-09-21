@@ -36,3 +36,4 @@ alias ls="ls -A"
 
 # Simplicity at it's finest.
 eval $(thefuck --alias)
+
