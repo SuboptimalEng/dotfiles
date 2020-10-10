@@ -2,4 +2,4 @@
 CMD + J => Previous Pane
 CMD + K => Next Pane
 CMD + CTRL + F => Full Screen
-CMD + CTRL + ENTER => Maximize Current Pane
+CMD + CTRL + ENTER => Select Menu Item... Maximize Current Pane
