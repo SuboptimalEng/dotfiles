@@ -46,13 +46,14 @@ bindkey '^h' backward-delete-char
 bindkey '^w' backward-kill-word
 
 # allow ctrl-r and ctrl-s to search the history
-# bindkey '^r' history-incremental-search-backward
-bindkey '/' history-incremental-search-backward
+bindkey '^r' history-incremental-search-backward
 bindkey '^s' history-incremental-search-forward
 # allow ctrl-a and ctrl-e to move to beginning/end of l
-# bindkey '^e' end-of-line
-bindkey '^ ' end-of-line
+bindkey '^e' end-of-line
 bindkey '^a' beginning-of-line
+
+# suggested for zsh-autosuggestions
+bindkey '^ ' end-of-line
 
 # if mode indicator wasn't setup by theme, define defau
 # if [[ "$MODE_INDICATOR" == "" ]]; then
@@ -67,3 +68,4 @@ function vi_mode_prompt_info() {
 if [[ "$RPS1" == "" && "$RPROMPT" == "" ]]; then
   RPS1='$(vi_mode_prompt_info)'
 fi
+
