@@ -22,7 +22,7 @@ function vi-accept-line() {
 
 zle -N vi-accept-line
 
-export KEYTIMEOUT=25
+# export KEYTIMEOUT=25
 
 bindkey -v
 bindkey -M viins kj vi-cmd-mode
@@ -36,11 +36,11 @@ bindkey -M vicmd '^M' vi-accept-line
 # zle -N edit-command-line
 # bindkey -M vicmd 'v' edit-command-line
 
-# allow ctrl-p, ctrl-n for navigate history (standard b
+# allow ctrl-p, ctrl-n for navigate history (standard behaviour)
 bindkey '^P' up-history
 bindkey '^N' down-history
 
-# allow ctrl-h, ctrl-w, ctrl-? for char and word deleti
+# allow ctrl-h, ctrl-w, ctrl-? for char and word deletion (standard behaviour)
 bindkey '^?' backward-delete-char
 bindkey '^h' backward-delete-char
 bindkey '^w' backward-kill-word
@@ -48,24 +48,24 @@ bindkey '^w' backward-kill-word
 # allow ctrl-r and ctrl-s to search the history
 bindkey '^r' history-incremental-search-backward
 bindkey '^s' history-incremental-search-forward
-# allow ctrl-a and ctrl-e to move to beginning/end of l
+
+# allow ctrl-a and ctrl-e to move to beginning/end of line
 bindkey '^e' end-of-line
 bindkey '^a' beginning-of-line
 
-# suggested for zsh-autosuggestions
+# helps with zsh-autosuggestions
 bindkey '^ ' end-of-line
 
-# if mode indicator wasn't setup by theme, define defau
+# if mode indicator wasn't setup by theme, define default
 # if [[ "$MODE_INDICATOR" == "" ]]; then
-#   MODE_INDICATOR="%{$fg_bold[red]%}<%{$fg[red]%}<<%{$re
+#   MODE_INDICATOR="%{$fg_bold[red]%}<%{$fg[red]%}<<%{$reset_color%}"
 # fi
 
 function vi_mode_prompt_info() {
-  echo "${${VI_KEYMAP/vicmd/$MODE_INDICATOR}/(main|viin
+  echo "${${VI_KEYMAP/vicmd/$MODE_INDICATOR}/(main|viins)/}"
 }
 
 # define right prompt, if it wasn't defined by a theme
 if [[ "$RPS1" == "" && "$RPROMPT" == "" ]]; then
   RPS1='$(vi_mode_prompt_info)'
 fi
-
