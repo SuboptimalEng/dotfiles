@@ -2,7 +2,7 @@ vim
 vetur
 gitlens
 gruvbox theme
-prettier-eslint
+vue (rahul kadyan)
 material icon theme
 restore git branches
 visual studio intellicode
