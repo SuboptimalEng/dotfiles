@@ -61,15 +61,19 @@
   "editor.hover.enabled": false,
 
   // Formatting
-  "editor.formatOnSave": true,
-  "vetur.format.defaultFormatter": "prettier",
-  // "eslint.alwaysShowStatus": true,
-  // "eslint.workingDirectories": [
-  //     "/Users/suboptimaleng/Desktop/dev/",
-  // ],
-  // "eslint.lintTask.enable": true,
-  // "editor.codeActionsOnSave": {
-  //     "source.organizeImports": true,
-  //     "source.fixAll.eslint": true,
-  // },
+  "eslint.validate": [
+        "vue",
+        "html",
+        "javascript",
+        "typescript"
+    ],
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
+    "editor.formatOnSave": true,
+    "vetur.format.defaultFormatterOptions": {
+        "prettier": {
+            "singleQuote": true
+        }
+    }
 }
