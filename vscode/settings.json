@@ -53,5 +53,22 @@
   // "editor.hover.enabled": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "zenMode.hideTabs": false,
-  "zenMode.hideLineNumbers": false
+  "zenMode.hideLineNumbers": false,
+
+  "explorer.compactFolders": false,
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.fontWeightBold": "normal",
+  "editor.hover.enabled": false,
+
+  // Formatting
+  "editor.formatOnSave": true,
+  // "eslint.alwaysShowStatus": true,
+  // "eslint.workingDirectories": [
+  //     "/Users/suboptimaleng/Desktop/dev/",
+  // ],
+  // "eslint.lintTask.enable": true,
+  // "editor.codeActionsOnSave": {
+  //     "source.organizeImports": true,
+  //     "source.fixAll.eslint": true,
+  // },
 }
