@@ -62,6 +62,7 @@
 
   // Formatting
   "editor.formatOnSave": true,
+  "vetur.format.defaultFormatter": "prettier",
   // "eslint.alwaysShowStatus": true,
   // "eslint.workingDirectories": [
   //     "/Users/suboptimaleng/Desktop/dev/",
