@@ -1,9 +1,8 @@
 vim
-eslint
+vetur
 gitlens
-prettier
 gruvbox theme
-solarized theem
+prettier-eslint
 material icon theme
 restore git branches
 visual studio intellicode
