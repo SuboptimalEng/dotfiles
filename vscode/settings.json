@@ -60,8 +60,8 @@
   "terminal.integrated.fontWeightBold": "normal",
   "editor.hover.enabled": false,
 
-  // Formatting
-  "eslint.validate": [
+    // Formatting
+    "eslint.validate": [
         "vue",
         "html",
         "javascript",
@@ -71,9 +71,13 @@
         "source.fixAll.eslint": true
     },
     "editor.formatOnSave": true,
+    "vetur.ignoreProjectWarning": true,
     "vetur.format.defaultFormatterOptions": {
         "prettier": {
             "singleQuote": true
         }
-    }
+    },
+    "screencastMode.fontSize": 24,
+    "screencastMode.keyboardOverlayTimeout": 750,
+    "screencastMode.verticalOffset": 10,
 }
