@@ -59,25 +59,30 @@
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.fontWeightBold": "normal",
   "editor.hover.enabled": false,
+  "screencastMode.fontSize": 24,
+  "screencastMode.keyboardOverlayTimeout": 750,
+  "screencastMode.verticalOffset": 10,
+    
+    //"eslint.validate": [
+    //    "vue",
+    //    "html",
+    //    "javascript",
+    //    "typescript"
+    //],
+    //"editor.codeActionsOnSave": {
+    //    "source.fixAll.eslint": true
+    //},
 
     // Formatting
-    "eslint.validate": [
-        "vue",
-        "html",
-        "javascript",
-        "typescript"
-    ],
-    "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true
-    },
     "editor.formatOnSave": true,
+    // "vetur.validation.script": false,
+    // "vetur.validation.style": false,
+    "vetur.validation.template": false,
     "vetur.ignoreProjectWarning": true,
     "vetur.format.defaultFormatterOptions": {
         "prettier": {
             "singleQuote": true
         }
     },
-    "screencastMode.fontSize": 24,
-    "screencastMode.keyboardOverlayTimeout": 750,
-    "screencastMode.verticalOffset": 10,
+
 }
