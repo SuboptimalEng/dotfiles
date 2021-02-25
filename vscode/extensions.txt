@@ -1,8 +1,9 @@
 vim
 vetur
 gitlens
-gruvbox theme
-vue (rahul kadyan)
+horizon theme
 material icon theme
 restore git branches
+gruvbox material theme
 visual studio intellicode
+tailwind css intellisense
