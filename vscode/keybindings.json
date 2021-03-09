@@ -18,10 +18,6 @@
     "when": "editorTextFocus && !editorTabMovesFocus"
   },
   {
-    "key": "shift+cmd+r",
-    "command": "extension.reval"
-  },
-  {
     "key": "cmd+enter",
     "command": "filesExplorer.openFilePreserveFocus",
     "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsFolder && !inputFocus"
@@ -59,5 +55,20 @@
     "args": {
       "to": "right"
     }
+  },
+  {
+    "key": "ctrl+cmd+m",
+    "command": "workbench.action.toggleZenMode"
+  },
+  // VSCode IntelliSense with Vim Key Strokes
+  {
+    "key": "cmd+j",
+    "command": "selectNextSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+  },
+  {
+    "key": "cmd+k",
+    "command": "selectPrevSuggestion",
+    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
   }
 ]
