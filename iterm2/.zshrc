@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH="/Users/telugugameboy/.oh-my-zsh"
+export ZSH="/Users/SuboptimalEng/.oh-my-zsh"
 
 # Remove username@hostname from terminal bar
 DISABLE_AUTO_TITLE="true"
@@ -11,7 +11,7 @@ DISABLE_AUTO_TITLE="true"
 # load a random theme each time oh-my-zsh is loaded, in which case,
 # to know which specific one was loaded, run: echo $RANDOM_THEME
 # See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
-ZSH_THEME="robbyrussell"
+ZSH_THEME="robbyrussell-custom"
 
 # Which plugins would you like to load?
 # Standard plugins can be found in ~/.oh-my-zsh/plugins/*
@@ -20,7 +20,7 @@ ZSH_THEME="robbyrussell"
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
   git
-  vi-mode
+  vi-mode-custom
   zsh-autosuggestions
 )
 
@@ -36,4 +36,3 @@ alias ls="ls -A"
 
 # Simplicity at it's finest.
 eval $(thefuck --alias)
-
