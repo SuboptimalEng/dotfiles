@@ -1,88 +1,101 @@
 {
-  "workbench.activityBar.visible": true,
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 3,
   "vim.easymotion": true,
-  "vim.sneak": true,
-  "vim.useSystemClipboard": true,
-  "vim.useCtrlKeys": true,
   "vim.hlsearch": true,
+  "vim.sneak": true,
+  "vim.useCtrlKeys": true,
+  "vim.useSystemClipboard": true,
   "vim.insertModeKeyBindings": [
     {
-      "before": ["k", "j"],
-      "after": ["<Esc>"]
-    }
-  ],
-  "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": ["<leader>", "d"],
-      "after": ["d", "d"]
-    },
-    {
-      "before": ["<C-n>"],
-      "commands": [":nohl"]
+      "before": [
+        "k",
+        "j"
+      ],
+      "after": [
+        "<Esc>"
+      ]
     }
   ],
   "vim.leader": "<space>",
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "<leader>",
+        "d"
+      ],
+      "after": [
+        "d",
+        "d"
+      ]
+    },
+    {
+      "before": [
+        "<C-n>"
+      ],
+      "commands": [
+        ":nohl"
+      ]
+    }
+  ],
   "vim.handleKeys": {
     "<C-a>": false,
     "<C-f>": true
   },
+  "editor.codeLens": false,
+  "editor.hover.enabled": false,
   "editor.minimap.enabled": false,
   "editor.renderControlCharacters": false,
-  "editor.renderWhitespace": "none",
   "editor.renderIndentGuides": true,
-  "files.trimTrailingWhitespace": true,
-  "workbench.editor.showTabs": true,
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.tabSize": 2,
-  "editor.codeLens": false,
+  "editor.renderWhitespace": "none",
   "editor.suggestSelection": "first",
-  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
-  "workbench.colorTheme": "Gruvbox Dark (Hard)",
-  "restoreGitBranchTabs.newBranchPreserveTabs": false,
-  "terminal.integrated.shell.osx": "zsh",
-  "workbench.statusBar.visible": true,
-  "search.searchOnType": false,
-  "workbench.list.keyboardNavigation": "simple",
-  "breadcrumbs.enabled": false,
-  // "editor.quickSuggestions": true,
-  "files.exclude": {
-    "**/node_modules": true,
-    "**/package-lock.json": true
-  },
-  // "editor.hover.enabled": false,
-  "workbench.editor.enablePreviewFromQuickOpen": false,
-  "zenMode.hideTabs": false,
-  "zenMode.hideLineNumbers": false,
-
+  "editor.tabSize": 2,
+  "editor.wordWrap": "on",
   "explorer.compactFolders": false,
-  "terminal.integrated.drawBoldTextInBrightColors": false,
-  "terminal.integrated.fontWeightBold": "normal",
-  "editor.hover.enabled": false,
-  "screencastMode.fontSize": 24,
+  "files.trimTrailingWhitespace": true,
+  "screencastMode.fontSize": 32,
   "screencastMode.keyboardOverlayTimeout": 750,
   "screencastMode.verticalOffset": 10,
-    
-    //"eslint.validate": [
-    //    "vue",
-    //    "html",
-    //    "javascript",
-    //    "typescript"
-    //],
-    //"editor.codeActionsOnSave": {
-    //    "source.fixAll.eslint": true
-    //},
-
-    // Formatting
-    "editor.formatOnSave": true,
-    // "vetur.validation.script": false,
-    // "vetur.validation.style": false,
-    "vetur.validation.template": false,
-    "vetur.ignoreProjectWarning": true,
-    "vetur.format.defaultFormatterOptions": {
-        "prettier": {
-            "singleQuote": true
-        }
-    },
-    "vetur.completion.tagCasing": "initial",
+  "search.searchOnType": false,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.drawBoldTextInBrightColors": false,
+  "terminal.integrated.fontWeightBold": "normal",
+  "terminal.integrated.shell.osx": "zsh",
+  "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+  "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.editor.showTabs": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.list.keyboardNavigation": "simple",
+  "workbench.statusBar.visible": true,
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideTabs": false,
+  // Formatting
+  "editor.formatOnSave": true,
+  "vetur.ignoreProjectWarning": true,
+  "vetur.completion.tagCasing": "initial",
+  "vetur.format.defaultFormatterOptions": {
+    "prettier": {
+      "singleQuote": true,
+    }
+  },
+  "vetur.grammar.customBlocks": {
+    "page-query": "graphql",
+    "static-query": "graphql"
+  },
+  // "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "breadcrumbs.enabled": false,
+  "vetur.validation.template": false,
+  "terminal.integrated.rendererType": "dom",
+  "files.exclude": {
+    "**/node_ modules": true,
+    "**/package-lock.json": true
+  },
+  // Theme
+  "workbench.colorTheme": "Gruvbox Material Dark",
+  "gruvboxMaterial.darkContrast": "hard",
+  "gruvboxMaterial.darkPalette": "original",
+  "gruvboxMaterial.darkWorkbench": "high-contrast",
+  "gruvboxMaterial.diagnosticTextBackgroundOpacity": "50%",
+  "gruvboxMaterial.lightContrast": "hard",
+  "gruvboxMaterial.lightPalette": "mix",
 }
