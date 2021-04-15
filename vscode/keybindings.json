@@ -1,74 +1,77 @@
 [
-  {
-    "key": "cmd+k",
-    "command": "workbench.action.nextEditor"
-  },
-  {
-    "key": "cmd+j",
-    "command": "workbench.action.previousEditor"
-  },
-  {
-    "key": "tab",
-    "command": "tab",
-    "when": "editorTextFocus && !editorTabMovesFocus"
-  },
-  {
-    "key": "shift+tab",
-    "command": "outdent",
-    "when": "editorTextFocus && !editorTabMovesFocus"
-  },
-  {
-    "key": "cmd+enter",
-    "command": "filesExplorer.openFilePreserveFocus",
-    "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsFolder && !inputFocus"
-  },
-  {
-    "key": "ctrl+cmd+g",
-    "command": "git.checkout"
-  },
-  {
-    "key": "ctrl+l",
-    "command": "editor.action.insertSnippet",
-    "when": "editorTextFocus",
-    "args": {
-      "snippet": "console.log('${TM_SELECTED_TEXT}$1')$2;"
-    }
-  },
-  {
-    "key": "ctrl+t",
-    "command": "workbench.action.terminal.toggleTerminal"
-  },
-  {
-    "key": "ctrl+`",
-    "command": "-workbench.action.terminal.toggleTerminal"
-  },
-  {
-    "key": "cmd+ctrl+j",
-    "command": "moveActiveEditor",
-    "args": {
-      "to": "left"
-    }
-  },
-  {
-    "key": "cmd+ctrl+k",
-    "command": "moveActiveEditor",
-    "args": {
-      "to": "right"
-    }
-  },
-  {
-    "key": "ctrl+cmd+m",
-    "command": "workbench.action.toggleZenMode"
-  },
-  // VSCode IntelliSense with Vim Key Strokes
-  {
-    "key": "cmd+j",
-    "command": "selectNextSuggestion",
-    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-  },
-  {
-    "key": "cmd+k",
-    "command": "selectPrevSuggestion",
-    "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
-  }
+    {
+        "key": "cmd+k",
+        "command": "workbench.action.nextEditor"
+    },
+    {
+        "key": "cmd+j",
+        "command": "workbench.action.previousEditor"
+    },
+    {
+        "key": "tab",
+        "command": "tab",
+        "when": "editorTextFocus && !editorTabMovesFocus"
+    },
+    {
+        "key": "shift+tab",
+        "command": "outdent",
+        "when": "editorTextFocus && !editorTabMovesFocus"
+    },
+    {
+        "key": "cmd+enter",
+        "command": "filesExplorer.openFilePreserveFocus",
+        "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsFolder && !inputFocus"
+    },
+    {
+        "key": "ctrl+l",
+        "command": "editor.action.insertSnippet",
+        "when": "editorTextFocus",
+        "args": {
+            "snippet": "console.log('${TM_SELECTED_TEXT}$1')$2;"
+        }
+    },
+    {
+        "key": "cmd+ctrl+j",
+        "command": "moveActiveEditor",
+        "args": {
+            "to": "left"
+        }
+    },
+    {
+        "key": "cmd+ctrl+k",
+        "command": "moveActiveEditor",
+        "args": {
+            "to": "right"
+        }
+    },
+    {
+        "key": "ctrl+t",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    {
+        "key": "ctrl+cmd+m",
+        "command": "workbench.action.toggleZenMode"
+    },
+    // VSCode IntelliSense with Vim Key Strokes
+    {
+        "key": "cmd+j",
+        "command": "selectNextSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    {
+        "key": "cmd+k",
+        "command": "selectPrevSuggestion",
+        "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
+    },
+    // VSCode Quick Open with Vim Key Strokes
+    {
+        "key": "cmd+j",
+        "command": "workbench.action.quickOpenSelectNext",
+        "when": "inQuickOpen"
+    },
+    {
+        "key": "cmd+k",
+        "command": "workbench.action.quickOpenSelectPrevious",
+        "when": "inQuickOpen"
+    },
 ]
