@@ -3,7 +3,6 @@
   "vim.easymotion": true,
   "vim.hlsearch": true,
   "vim.sneak": true,
-  "vim.useCtrlKeys": true,
   "vim.useSystemClipboard": true,
   "vim.insertModeKeyBindings": [
     {
@@ -16,18 +15,12 @@
       ]
     }
   ],
-  "vim.leader": "<space>",
+  "vim.useCtrlKeys": true,
+  "vim.handleKeys": {
+    "<C-f>": true,
+    "<C-a>": false,
+  },
   "vim.normalModeKeyBindingsNonRecursive": [
-    {
-      "before": [
-        "<leader>",
-        "d"
-      ],
-      "after": [
-        "d",
-        "d"
-      ]
-    },
     {
       "before": [
         "<C-n>"
@@ -35,12 +28,19 @@
       "commands": [
         ":nohl"
       ]
+    },
+  ],
+  // vim mode viwy viwcmd+d p issue hack
+  "vim.visualModeKeyBindingsNonRecursive": [
+    {
+      "before": [
+        "p",
+      ],
+      "commands": [
+        "editor.action.clipboardPasteAction"
+      ]
     }
   ],
-  "vim.handleKeys": {
-    "<C-a>": false,
-    "<C-f>": true
-  },
   "editor.codeLens": false,
   "editor.hover.enabled": false,
   "editor.minimap.enabled": false,
@@ -64,7 +64,6 @@
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.showTabs": true,
-  "workbench.iconTheme": "material-icon-theme",
   "workbench.list.keyboardNavigation": "simple",
   "workbench.statusBar.visible": true,
   "zenMode.hideLineNumbers": false,
@@ -91,11 +90,17 @@
     "**/package-lock.json": true
   },
   // Theme
-  "workbench.colorTheme": "Gruvbox Material Dark",
+  "workbench.colorTheme": "Darcula Pycharm Theme (dimmed)",
   "gruvboxMaterial.darkContrast": "hard",
   "gruvboxMaterial.darkPalette": "original",
   "gruvboxMaterial.darkWorkbench": "high-contrast",
   "gruvboxMaterial.diagnosticTextBackgroundOpacity": "50%",
   "gruvboxMaterial.lightContrast": "hard",
   "gruvboxMaterial.lightPalette": "mix",
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  // "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'"
+  // >= @ && $
+  // != == === !==
 }
