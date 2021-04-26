@@ -74,4 +74,8 @@
         "command": "workbench.action.quickOpenSelectPrevious",
         "when": "inQuickOpen"
     },
+    {
+        "key": "ctrl+cmd+enter",
+        "command": "workbench.action.toggleMaximizedPanel"
+    }
 ]
