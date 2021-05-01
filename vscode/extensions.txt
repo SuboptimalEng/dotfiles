@@ -6,3 +6,4 @@ restore git branches
 gruvbox material theme
 visual studio intellicode
 tailwind css intellisense
+darcula pycharm theme (malvery)
