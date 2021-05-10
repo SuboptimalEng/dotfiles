@@ -1,6 +1,7 @@
 vim
 vetur
 gitlens
+prettier
 material icon theme
 restore git branches
 gruvbox material theme
