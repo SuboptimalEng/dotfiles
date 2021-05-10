@@ -6,39 +6,26 @@
   "vim.useSystemClipboard": true,
   "vim.insertModeKeyBindings": [
     {
-      "before": [
-        "k",
-        "j"
-      ],
-      "after": [
-        "<Esc>"
-      ]
+      "before": ["k", "j"],
+      "after": ["<Esc>"]
     }
   ],
   "vim.useCtrlKeys": true,
   "vim.handleKeys": {
     "<C-f>": true,
-    "<C-a>": false,
+    "<C-a>": false
   },
   "vim.normalModeKeyBindingsNonRecursive": [
     {
-      "before": [
-        "<C-n>"
-      ],
-      "commands": [
-        ":nohl"
-      ]
-    },
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    }
   ],
   // vim mode viwy viwcmd+d p issue hack
   "vim.visualModeKeyBindingsNonRecursive": [
     {
-      "before": [
-        "p",
-      ],
-      "commands": [
-        "editor.action.clipboardPasteAction"
-      ]
+      "before": ["p"],
+      "commands": ["editor.action.clipboardPasteAction"]
     }
   ],
   "editor.codeLens": false,
@@ -56,55 +43,51 @@
   "screencastMode.keyboardOverlayTimeout": 750,
   "screencastMode.verticalOffset": 10,
   "search.searchOnType": false,
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.fontWeightBold": "normal",
-  "terminal.integrated.shell.osx": "zsh",
+  "terminal.integrated.drawBoldTextInBrightColors": false,
   "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.showTabs": true,
-  "workbench.list.keyboardNavigation": "simple",
   "workbench.statusBar.visible": true,
   "zenMode.hideLineNumbers": false,
   "zenMode.hideTabs": false,
   // Formatting
+  "breadcrumbs.enabled": false,
   "editor.formatOnSave": true,
+  "vetur.validation.template": false,
   "vetur.ignoreProjectWarning": true,
   "vetur.completion.tagCasing": "initial",
   "vetur.format.defaultFormatterOptions": {
     "prettier": {
-      "singleQuote": true,
+      "singleQuote": true
     }
   },
-  "vetur.grammar.customBlocks": {
-    "page-query": "graphql",
-    "static-query": "graphql"
-  },
-  // "vetur.format.defaultFormatter.js": "prettier-eslint",
-  "breadcrumbs.enabled": false,
-  "vetur.validation.template": false,
-  "terminal.integrated.rendererType": "dom",
   "files.exclude": {
-    "**/node_ modules": true,
+    "**/node_modules": true,
     "**/package-lock.json": true
   },
-  // Theme
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[vue]": {
+    "editor.defaultFormatter": "octref.vetur"
+  },
+
+  // use vim hjkl to navigate folders
+  "workbench.list.keyboardNavigation": "simple",
+  "workbench.list.automaticKeyboardNavigation": false,
+
+  // theme
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "workbench.iconTheme": "material-icon-theme",
   "workbench.colorTheme": "Darcula Pycharm Theme (dimmed)",
   "gruvboxMaterial.darkContrast": "hard",
   "gruvboxMaterial.darkPalette": "original",
   "gruvboxMaterial.darkWorkbench": "high-contrast",
   "gruvboxMaterial.diagnosticTextBackgroundOpacity": "50%",
   "gruvboxMaterial.lightContrast": "hard",
-  "gruvboxMaterial.lightPalette": "mix",
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.fontFamily": "Fira Code",
-  "editor.fontLigatures": true,
-  // use vim hjkl to navigate folders
-  "workbench.list.keyboardNavigation": "simple",
-  "workbench.list.automaticKeyboardNavigation": false,
-
-  // "editor.fontLigatures": "'calt', 'ss01', 'ss02', 'ss03', 'ss04', 'ss05', 'ss06', 'zero', 'onum'"
-  // >= @ && $
-  // != == === !==
+  "gruvboxMaterial.lightPalette": "mix"
 }
