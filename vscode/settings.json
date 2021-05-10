@@ -66,6 +66,7 @@
       "singleQuote": true
     }
   },
+  // "vetur.format.defaultFormatter.js": "prettier-eslint",
   "files.exclude": {
     "**/node_modules": true,
     "**/package-lock.json": true
