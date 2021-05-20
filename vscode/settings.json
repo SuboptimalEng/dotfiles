@@ -53,14 +53,16 @@
   "workbench.editor.enablePreviewFromQuickOpen": false,
   "workbench.editor.showTabs": true,
   "workbench.statusBar.visible": true,
-  "zenMode.hideLineNumbers": false,
   "zenMode.hideTabs": false,
+  "zenMode.hideLineNumbers": false,
   // Formatting
   "breadcrumbs.enabled": false,
   "editor.formatOnSave": true,
+  "prettier.singleQuote": true,
   "vetur.validation.template": false,
   "vetur.ignoreProjectWarning": true,
   "vetur.completion.tagCasing": "initial",
+  "vetur.format.scriptInitialIndent": true,
   "vetur.format.defaultFormatterOptions": {
     "prettier": {
       "singleQuote": true
@@ -84,11 +86,12 @@
   "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Darcula Pycharm Theme (dimmed)",
   "gruvboxMaterial.darkContrast": "hard",
   "gruvboxMaterial.darkPalette": "original",
   "gruvboxMaterial.darkWorkbench": "high-contrast",
   "gruvboxMaterial.diagnosticTextBackgroundOpacity": "50%",
   "gruvboxMaterial.lightContrast": "hard",
-  "gruvboxMaterial.lightPalette": "mix"
+  "gruvboxMaterial.lightPalette": "mix",
+  "workbench.colorTheme": "Darcula Pycharm Theme (dimmed)",
+  "workbench.sideBar.location": "right"
 }
