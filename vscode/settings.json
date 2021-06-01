@@ -58,6 +58,7 @@
   // Formatting
   "breadcrumbs.enabled": false,
   "editor.formatOnSave": true,
+  "editor.wordWrapColumn": 100,
   "files.exclude": {
     "**/node_ modules": true,
     "**/package-lock.json": true
