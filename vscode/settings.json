@@ -58,24 +58,17 @@
   // Formatting
   "breadcrumbs.enabled": false,
   "editor.formatOnSave": true,
-  "prettier.singleQuote": true,
-  "vetur.validation.template": false,
-  "vetur.ignoreProjectWarning": true,
-  "vetur.completion.tagCasing": "initial",
-  "vetur.format.scriptInitialIndent": true,
-  "vetur.format.defaultFormatterOptions": {
-    "prettier": {
-      "singleQuote": true
-    }
-  },
-  // "vetur.format.defaultFormatter.js": "prettier-eslint",
   "files.exclude": {
-    "**/node_modules": true,
+    "**/node_ modules": true,
     "**/package-lock.json": true
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "vetur.validation.template": false,
+  "vetur.ignoreProjectWarning": true,
+  "vetur.completion.tagCasing": "initial",
   "[vue]": {
     "editor.defaultFormatter": "octref.vetur"
+    // "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
 
   // use vim hjkl to navigate folders
@@ -92,6 +85,5 @@
   "gruvboxMaterial.diagnosticTextBackgroundOpacity": "50%",
   "gruvboxMaterial.lightContrast": "hard",
   "gruvboxMaterial.lightPalette": "mix",
-  "workbench.colorTheme": "Darcula Pycharm Theme (dimmed)",
-  "workbench.sideBar.location": "right"
+  "workbench.colorTheme": "Darcula Pycharm Theme (dimmed)"
 }
