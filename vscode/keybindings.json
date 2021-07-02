@@ -114,4 +114,10 @@
         "command": "workbench.action.terminal.kill",
         "when": "terminalFocus"
     }
+  // Traverse search results with vim
+  // {
+  //   "key": "cmd+j",
+  //   "command": "search.action.focusNextSearchResult",
+  //   "when": "hasSearchResult && workbench.view.search.visible"
+  // },
 ]
