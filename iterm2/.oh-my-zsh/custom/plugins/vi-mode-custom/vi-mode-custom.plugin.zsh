@@ -22,6 +22,11 @@ function vi-accept-line() {
 
 zle -N vi-accept-line
 
+# Indicate NORMAL Mode
+if [[ -z "$MODE_INDICATOR" ]]; then
+  MODE_INDICATOR='%B%F{red}◀︎◀︎◀︎%b%f'
+fi
+
 # export KEYTIMEOUT=25
 
 bindkey -v
