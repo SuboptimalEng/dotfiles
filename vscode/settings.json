@@ -60,8 +60,10 @@
   "editor.formatOnSave": true,
   "editor.wordWrapColumn": 100,
   "files.exclude": {
-    "**/node_ modules": true,
-    "**/package-lock.json": true
+    "**/node_modules": true,
+    "**/package-lock.json": true,
+    // Hide js files after running tsc
+    "**/*.js": { "when": "$(basename).ts" 
   },
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "vetur.validation.template": false,
