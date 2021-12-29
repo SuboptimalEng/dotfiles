@@ -45,7 +45,7 @@
     }
   },
   {
-    "key": "ctrl+cmd+m",
+    "key": "cmd+ctrl+m",
     "command": "workbench.action.toggleZenMode"
   },
   // VSCode IntelliSense with Vim Key Strokes
@@ -93,11 +93,12 @@
     "command": "workbench.action.terminal.newInActiveWorkspace"
   },
   {
-    "key": "ctrl+t",
+    // "key": "ctrl+t",
+    "key": "cmd+enter",
     "command": "workbench.action.terminal.toggleTerminal"
   },
   {
-    "key": "ctrl+cmd+enter",
+    "key": "cmd+ctrl+enter",
     "command": "workbench.action.toggleMaximizedPanel"
   },
   {
