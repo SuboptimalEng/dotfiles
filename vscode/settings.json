@@ -39,7 +39,6 @@
   "editor.insertSpaces": false,
   "editor.hover.enabled": true,
   "editor.fontLigatures": true,
-  "editor.wordWrapColumn": 100,
   "editor.minimap.enabled": false,
   "editor.fontFamily": "Fira Code",
   "editor.renderWhitespace": "none",
