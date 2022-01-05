@@ -1,4 +1,4 @@
-#### default extensions
+## Default Extensions
 
 - vim
 - prettier
@@ -7,13 +7,13 @@
 - tailwind css intellisense
 - visual studio intellicode
 
-#### favorite themes
+## Favorite Themes
 
 - github theme
 - material icon theme
 - gruvbox material theme
 
-#### extensions for collaboration
+## Extensions for Collaboration
 
 - gitlens
 - restore git branches
