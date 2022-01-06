@@ -35,12 +35,6 @@
     }
   },
 
-  // Quickly toggle zen mode.
-  {
-    "key": "cmd+ctrl+m",
-    "command": "workbench.action.toggleZenMode"
-  },
-
   // Traverse VSCode IntelliSense suggestions with vim keybindings.
   {
     "key": "cmd+j",
