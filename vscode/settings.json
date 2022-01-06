@@ -43,7 +43,7 @@
   "editor.fontFamily": "Fira Code",
   "editor.renderWhitespace": "none",
   "editor.renderControlCharacters": false,
-  "editor.suggestSelection": "recentlyUsed",
+  "editor.suggestSelection": "first",
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
 
