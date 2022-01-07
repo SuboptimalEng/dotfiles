@@ -34,6 +34,8 @@
   "editor.wordWrap": "on",
   "editor.codeLens": false,
   "editor.lineNumbers": "on",
+  "editor.folding": false,
+  "editor.glyphMargin": false,
   "editor.formatOnSave": true,
   "editor.cursorStyle": "line",
   "editor.insertSpaces": false,
