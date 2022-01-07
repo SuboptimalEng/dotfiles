@@ -96,7 +96,8 @@
   // GitHub dark color theme.
   "workbench.colorTheme": "GitHub Dark Default",
   "workbench.colorCustomizations": {
-    "terminal.foreground": "#CCCCCC"
+    "terminal.foreground": "#cccccc",
+    "editorLineNumber.activeForeground": "#ffffff"
   },
 
   // Gruvbox material dark theme settings.
