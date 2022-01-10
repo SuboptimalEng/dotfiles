@@ -1,6 +1,7 @@
 {
   // Keep text highlighted after searching in vim.
   "vim.hlsearch": true,
+  "vim.timeout": 250,
   "vim.useSystemClipboard": true,
   "vim.insertModeKeyBindings": [
     {
