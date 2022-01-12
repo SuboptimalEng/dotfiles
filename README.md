@@ -1,1 +1,1 @@
-# 🗃 Dotfiles for Developer Productivity
+# 🗃 Dotfiles for VS Code + Iterm2
