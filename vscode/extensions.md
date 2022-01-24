@@ -12,7 +12,7 @@
 - github theme
 - material icon theme
 - gruvbox material theme
-- fira code/ jetbrains mono
+- fira code/jetbrains mono
 
 ## Extensions for Collaboration
 
