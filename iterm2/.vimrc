@@ -23,3 +23,6 @@ let &t_EI = "\<Esc>]50;CursorShape=0\x7"
 
 inoremap kj <ESC>
 
+nnoremap <Tab> >>
+nnoremap <S-Tab> <<
+inoremap <S-Tab> <C-d>
