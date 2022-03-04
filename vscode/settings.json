@@ -15,6 +15,16 @@
     "<C-a>": false
   },
   "vim.leader": "<space>",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["v", "n"],
+      "after": ["v", "g", "_", "y"]
+    },
+    {
+      "before": ["d", "n"],
+      "after": ["d", "g", "_"]
+    }
+  ],
   "vim.normalModeKeyBindingsNonRecursive": [
     {
       "before": ["<C-n>"],
