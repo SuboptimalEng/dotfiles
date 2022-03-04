@@ -91,7 +91,7 @@
 
   "workbench.editor.showTabs": true,
   "workbench.statusBar.visible": true,
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vs-nomo-dark",
   "workbench.editor.enablePreviewFromQuickOpen": false,
 
   // Use vim hjkl to navigate folders.
@@ -101,22 +101,21 @@
   "zenMode.hideTabs": false,
   "zenMode.hideLineNumbers": false,
 
-  "window.zoomLevel": 4,
+  "window.zoomLevel": 3,
 
   // === COLOR THEME SETTINGS ===
 
   // GitHub dark color theme.
-  "workbench.colorTheme": "GitHub Dark Default",
+  "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.colorCustomizations": {
     "terminal.foreground": "#cccccc",
-    "editorLineNumber.activeForeground": "#ffffff"
-  },
-
-  // Gruvbox material dark theme settings.
-  "gruvboxMaterial.darkContrast": "hard",
-  "gruvboxMaterial.darkPalette": "original",
-  "gruvboxMaterial.darkWorkbench": "high-contrast",
-  "gruvboxMaterial.diagnosticTextBackgroundOpacity": "50%",
-  "gruvboxMaterial.lightContrast": "hard",
-  "gruvboxMaterial.lightPalette": "mix"
+    "quickInput.background": "#1d2021",
+    "quickInputList.focusBackground": "#070808",
+    "tab.activeBackground": "#070808",
+    "editor.background": "#070808",
+    "sideBar.background": "#070808",
+    "activityBar.background": "#070808",
+    "terminal.background": "#070808",
+    "statusBar.background": "#070808"
+  }
 }
