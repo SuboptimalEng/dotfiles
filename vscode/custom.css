@@ -1,0 +1,26 @@
+@keyframes my-slide-in {
+  0% {
+    transform: scale(1) skew(0deg, 0deg);
+  }
+  25% {
+    transform: scale(1.5) skew(10deg, 10deg);
+  }
+  50% {
+    transform: scale(1) skew(0deg, 0deg);
+  }
+  75% {
+    transform: scale(1.5) skew(-10deg, -10deg);
+  }
+  100% {
+    transform: scale(1) skew(0deg, 0deg);
+  }
+}
+
+.monaco-editor .cursors-layer.cursor-smooth-caret-animation > .cursor {
+  /* transition-timing-function: cubic-bezier(0.64, 0.57, 0.67, 1.53);
+  transition: all 1000ms; */
+  /* transform: scale(1) rotate(15deg);
+  transition: all 100ms cubic-bezier(1, 0, 0, 1); */
+  /* transition: all 800ms cubic-bezier(1, 0, 0, 1); */
+  animation: my-slide-in 1s ease-in-out infinite;
+}
