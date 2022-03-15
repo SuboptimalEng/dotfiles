@@ -43,8 +43,8 @@ const displayEffect = (event) => {
     rect.animate(
       [
         // keyframes
-        { transform: "scale(1)" },
-        { transform: "scale(0)" },
+        { transform: "scale(1) skew(10deg)" },
+        { transform: "scale(0) skew(10deg)" },
       ],
       {
         // timing options
@@ -58,8 +58,9 @@ const displayEffect = (event) => {
     document.body.appendChild(rect);
     prevOffset.top = currOffset.top;
     prevOffset.left = currOffset.left;
-  }, 25);
+  }, 24);
 };
 
+// NOTE: First enable editor.cursorSmoothCaretAnimation.
 // NOTE: Uncomment this to get a cursor trail effect.
-// document.addEventListener("keydown", displayEffect);
+document.addEventListener("keydown", displayEffect);

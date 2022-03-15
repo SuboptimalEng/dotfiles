@@ -2,8 +2,14 @@
   0% {
     transform: rotate(0deg);
   }
+  25% {
+    transform: rotate(20deg);
+  }
   50% {
-    transform: rotate(10deg);
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-20deg);
   }
   100% {
     transform: rotate(0deg);
@@ -29,12 +35,13 @@
 }
 
 .monaco-editor .cursors-layer.cursor-smooth-caret-animation > .cursor {
-  /* transition: all 100ms cubic-bezier(1, -0.1, 0, 1), transform 0.5s ease; */
-  /* transition: all 100ms cubic-bezier(1, 0, 0, 1); */
+  /* NOTE: first enable editor.cursorSmoothCaretAnimation */
+  /* NOTE: always leave the transition in the code */
   transition: all 100ms ease-out;
-  animation: my-slide 2s ease-in-out infinite;
-}
 
-/* .monaco-editor .cursors-layer.cursor-smooth-caret-animation > .cursor:hover {
-  transform: scale(2) rotate(15deg);
-} */
+  /* NOTE: uncomment this animation for skew demo */
+  /* animation: my-slide 2s ease-in-out infinite; */
+
+  /* NOTE: uncomment this animation for rotation demo */
+  /* animation: my-rotation 2s linear infinite; */
+}
