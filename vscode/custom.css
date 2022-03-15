@@ -3,7 +3,7 @@
     transform: rotate(0deg);
   }
   50% {
-    transform: rotate(180deg);
+    transform: rotate(10deg);
   }
   100% {
     transform: rotate(0deg);
@@ -29,9 +29,10 @@
 }
 
 .monaco-editor .cursors-layer.cursor-smooth-caret-animation > .cursor {
-  /* transition: all 80ms cubic-bezier(1, 0, 0, 1), transform 0.5s ease; */
-  transition: all 40ms linear;
-  animation: my-rotation 2s ease-in-out infinite;
+  /* transition: all 100ms cubic-bezier(1, -0.1, 0, 1), transform 0.5s ease; */
+  /* transition: all 100ms cubic-bezier(1, 0, 0, 1); */
+  transition: all 80ms linear;
+  /* animation: my-slide-in 2s ease-in-out infinite; */
 }
 
 /* .monaco-editor .cursors-layer.cursor-smooth-caret-animation > .cursor:hover {
