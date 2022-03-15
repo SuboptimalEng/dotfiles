@@ -5,36 +5,54 @@ function getOffset(el) {
     top: rect.top + window.scrollY,
   };
 }
-let prevCursor = { left: 35, top: 35 };
-let currCursor = { left: 100, top: 100 };
-const logKey = (event) => {
-  let el = document.getElementById("myRect");
-  if (el !== null) {
-    el.remove();
-  }
-  let rect = document.createElement("div");
-  rect.id = "myRect";
 
-  currCursor = getOffset(document.getElementsByClassName("cursor")[0]);
-  let top = currCursor.top;
-  let left = currCursor.left;
-  const h = document.getElementsByClassName("view-line");
+const displayEffect = (event) => {
+  setTimeout(function () {
+    let offset = getOffset(document.getElementsByClassName("cursor")[0]);
+    let top = offset.top;
+    let left = offset.left;
+    console.log(top, left);
+  }, 40);
+
+  console.log(event);
+  let existingRect = document.getElementById("myRect");
+  if (existingRect !== null) {
+    existingRect.remove();
+  }
+
+  let rect = document.createElement("div");
+  let offset = getOffset(document.getElementsByClassName("cursor")[0]);
+  let top = offset.top;
+  let left = offset.left;
+  console.log(top, left);
+
+  rect.id = "myRect";
   rect.style.cssText = `
 	position:absolute;
 	top:${top}px;
 	left:${left}px;
 	width:9px;
-	height:22px;
+	height:20px;
 	z-index:10;
 	background-color:red;
+  opacity: 0.5;
   `;
-  document.body.appendChild(rect);
-  prevCursor.left = currCursor.left;
-  prevCursor.top = currCursor.top;
+  rect.animate(
+    [
+      // keyframes
+      { transform: "scale(1) skew(25deg, 10deg)" },
+      { transform: "scale(0) skew(25deg, 10deg)" },
+    ],
+    {
+      // timing options
+      duration: 1000,
+      easing: "ease-in-out",
+      direction: "alternate",
+      iterations: Infinity,
+    }
+  );
 
-  // console.log(document.getElementsByClassName("cursor"));
-  // currCursor = getOffset(cursorElement);
-  // console.log("prev: ", prevCursor);
-  // console.log("curr: ", currCursor);
+  document.body.appendChild(rect);
 };
-document.addEventListener("keydown", logKey);
+
+document.addEventListener("keydown", displayEffect);
