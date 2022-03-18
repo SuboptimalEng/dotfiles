@@ -14,7 +14,6 @@
     "<C-f>": true,
     "<C-a>": false
   },
-  "vim.leader": "<space>",
   "vim.normalModeKeyBindings": [
     {
       "before": ["v", "n"],
@@ -43,22 +42,20 @@
 
   "editor.fontSize": 14,
   "editor.wordWrap": "on",
-  "editor.codeLens": false,
-  "editor.cursorStyle": "block",
-  "editor.cursorBlinking": "solid",
-  "editor.cursorSmoothCaretAnimation": true,
   "editor.lineNumbers": "on",
+  "editor.codeLens": false,
   "editor.folding": false,
   "editor.glyphMargin": false,
   "editor.formatOnSave": true,
-  "editor.insertSpaces": false,
   "editor.hover.enabled": true,
   "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
-  "editor.fontFamily": "JetBrains Mono",
+  "editor.cursorBlinking": "blink",
   "editor.renderWhitespace": "none",
-  "editor.renderControlCharacters": false,
   "editor.suggestSelection": "first",
+  "editor.fontFamily": "JetBrains Mono",
+  "editor.renderControlCharacters": false,
+  "editor.cursorSmoothCaretAnimation": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
 
@@ -66,34 +63,30 @@
 
   "files.trimTrailingWhitespace": true,
   "files.exclude": {
-    // "**/node_modules": true,
+    "**/node_modules": true,
     "**/package-lock.json": true,
     // Hide js files after running tsc.
     "**/*.js": { "when": "$(basename).ts" }
   },
 
-  // YouTube recordings.
-  "screencastMode.fontSize": 24,
-  "screencastMode.keyboardOverlayTimeout": 500,
-  "screencastMode.verticalOffset": 4,
-
   "search.searchOnType": false,
 
+  "telemetry.telemetryLevel": "off",
+
   "terminal.integrated.fontSize": 13,
-  "terminal.integrated.gpuAcceleration": "on",
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.fontWeightBold": "normal",
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.tabs.enabled": false,
+  "terminal.integrated.gpuAcceleration": "on",
 
   "typescript.updateImportsOnFileMove.enabled": "always",
 
   "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
 
-  "workbench.editor.showTabs": true,
-  "workbench.statusBar.visible": true,
+  "workbench.activityBar.visible": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
 
   // Use vim hjkl to navigate folders.
@@ -102,21 +95,24 @@
 
   "zenMode.hideTabs": false,
   "zenMode.hideLineNumbers": false,
-
-  "window.zoomLevel": 3,
-
   "workbench.colorCustomizations": {
     "terminal.foreground": "#cccccc",
+    "terminal.background": "#070808",
+
     "quickInput.background": "#1d2021",
     "quickInputList.focusBackground": "#070808",
-    "tab.activeBackground": "#070808",
+
     "editor.background": "#070808",
     "sideBar.background": "#070808",
+    "tab.activeBackground": "#070808",
+    "statusBar.background": "#070808",
     "activityBar.background": "#070808",
-    "terminal.background": "#070808",
-    "statusBar.background": "#070808"
+
+    "editorLineNumber.activeForeground": "#cccccc"
   },
+
+  // NOTE: Set highly variable settings at the end of the file.
+  "window.zoomLevel": 4,
   "workbench.iconTheme": "vs-nomo-dark",
-  "workbench.colorTheme": "Gruvbox Dark Hard",
-  "workbench.activityBar.visible": false
+  "workbench.colorTheme": "Gruvbox Dark Hard"
 }
