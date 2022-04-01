@@ -1,7 +1,7 @@
 {
   // VS Code automatically highlights selected words.
   // "vim.hlsearch": false,
-  "vim.timeout": 250,
+  "vim.timeout": 200,
   "vim.useSystemClipboard": true,
   "vim.insertModeKeyBindings": [
     {
@@ -58,12 +58,13 @@
   "editor.cursorSmoothCaretAnimation": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "editor.renderLineHighlight": "all",
 
   "explorer.compactFolders": false,
 
   "files.trimTrailingWhitespace": true,
   "files.exclude": {
-    "**/node_modules": true,
+    // "**/node_modules": true,
     "**/package-lock.json": true,
     // Hide js files after running tsc.
     "**/*.js": { "when": "$(basename).ts" }
@@ -95,6 +96,7 @@
 
   "zenMode.hideTabs": false,
   "zenMode.hideLineNumbers": false,
+  "editor.guides.indentation": false,
   "workbench.colorCustomizations": {
     "terminal.foreground": "#cccccc",
     "terminal.background": "#070808",
@@ -110,9 +112,9 @@
 
     "editorLineNumber.activeForeground": "#cccccc"
   },
-
   // NOTE: Set highly variable settings at the end of the file.
-  "window.zoomLevel": 4,
+  "window.zoomLevel": 2,
   "workbench.iconTheme": "vs-nomo-dark",
-  "workbench.colorTheme": "Gruvbox Dark Hard"
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "workbench.tree.renderIndentGuides": "none"
 }
