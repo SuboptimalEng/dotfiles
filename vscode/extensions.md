@@ -8,11 +8,10 @@
 
 ## Favorite Themes
 
-- github theme
 - nomo dark icon theme
-- gruvbox material theme
-- fira code/jetbrains mono
+- github/gruvbox themes
 - vscode custom css and js loader
+- fira code/jetbrains mono/iosevka
 
 ## Extensions for Collaboration
 
