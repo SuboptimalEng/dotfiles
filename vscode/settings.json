@@ -40,7 +40,7 @@
 
   "breadcrumbs.enabled": false,
 
-  "editor.fontSize": 14,
+  "editor.fontSize": 15,
   "editor.wordWrap": "on",
   "editor.lineNumbers": "on",
   "editor.codeLens": false,
@@ -49,13 +49,12 @@
   "editor.formatOnSave": true,
   "editor.hover.enabled": true,
   "editor.fontLigatures": true,
+  "editor.fontFamily": "Iosevka",
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "blink",
   "editor.renderWhitespace": "none",
   "editor.suggestSelection": "first",
-  "editor.fontFamily": "JetBrains Mono",
   "editor.renderControlCharacters": false,
-  "editor.cursorSmoothCaretAnimation": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
   "editor.renderLineHighlight": "all",
@@ -64,10 +63,10 @@
 
   "files.trimTrailingWhitespace": true,
   "files.exclude": {
-    // "**/node_modules": true,
-    "**/package-lock.json": true,
+    "**/node_modules": true,
+    "**/package-lock.json": true
     // Hide js files after running tsc.
-    "**/*.js": { "when": "$(basename).ts" }
+    // "**/*.js": { "when": "$(basename).ts" }
   },
 
   "search.searchOnType": false,
@@ -113,7 +112,7 @@
     "editorLineNumber.activeForeground": "#cccccc"
   },
   // NOTE: Set highly variable settings at the end of the file.
-  "window.zoomLevel": 2,
+  "window.zoomLevel": 3,
   "workbench.iconTheme": "vs-nomo-dark",
   "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.tree.renderIndentGuides": "none"
