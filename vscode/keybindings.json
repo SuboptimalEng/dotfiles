@@ -118,6 +118,18 @@
     "key": "shift+tab",
     "command": "outdent",
     "when": "editorTextFocus && !editorTabMovesFocus"
+  },
+
+  // go to definition
+  {
+    "key": "d f",
+    "command": "editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  {
+    "key": "f12",
+    "command": "-editor.action.revealDefinition",
+    "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
   }
 
   // TODO: Traverse search results with vim
