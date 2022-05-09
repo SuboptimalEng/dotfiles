@@ -122,7 +122,7 @@
 
   // go to definition
   {
-    "key": "d f",
+    "key": "cmd+f",
     "command": "editor.action.revealDefinition",
     "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
   },
@@ -130,6 +130,12 @@
     "key": "f12",
     "command": "-editor.action.revealDefinition",
     "when": "editorHasDefinitionProvider && editorTextFocus && !isInEmbeddedEditor"
+  },
+  // remove default find action for "cmd+f"
+  {
+    "key": "cmd+f",
+    "command": "-actions.find",
+    "when": "editorFocus || editorIsOpen"
   }
 
   // TODO: Traverse search results with vim
