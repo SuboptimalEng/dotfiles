@@ -55,6 +55,7 @@
   "editor.fontLigatures": true,
   "editor.fontFamily": "Monaco",
   // "editor.fontFamily": "Fira Code",
+  // "editor.fontFamily": "Cascadia Code",
   // "editor.fontFamily": "Iosevka",
   // "editor.fontWeight": "500",
   "editor.minimap.enabled": false,
