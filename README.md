@@ -1,1 +1,1 @@
-# 🗃 Dotfiles for VS Code + Iterm2
+# 🛠 Dotfiles for VS Code + Iterm2
