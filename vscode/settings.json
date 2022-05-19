@@ -53,7 +53,10 @@
   "editor.formatOnSave": true,
   "editor.hover.enabled": false,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "Iosevka",
+  "editor.fontFamily": "Monaco",
+  // "editor.fontFamily": "Fira Code",
+  // "editor.fontFamily": "Iosevka",
+  // "editor.fontWeight": "500",
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "blink",
   "editor.renderWhitespace": "none",
@@ -80,7 +83,7 @@
 
   "telemetry.telemetryLevel": "off",
 
-  "terminal.integrated.fontSize": 13,
+  "terminal.integrated.fontSize": 14,
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorBlinking": true,
