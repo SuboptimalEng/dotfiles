@@ -123,7 +123,7 @@
   },
   // NOTE: Set highly variable settings at the end of the file.
   "window.zoomLevel": 3,
-  "workbench.iconTheme": "vs-nomo-dark",
+  "workbench.iconTheme": "vscode-great-icons",
   "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.tree.renderIndentGuides": "none"
 }
