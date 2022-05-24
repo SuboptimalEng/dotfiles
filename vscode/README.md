@@ -1,17 +1,23 @@
+# 🛠 Dotfiles for VS Code + Iterm2
+
 ## Default Extensions
 
 - vim
 - prettier
+- webgl glsl editor
 - disable ligatures
 - tailwind css intellisense
 - visual studio intellicode
 
 ## Favorite Themes
 
-- nomo dark icon theme
-- github/gruvbox themes
-- vscode custom css and js loader
-- fira code/jetbrains mono/iosevka
+- gruvbox themes
+- vscode great icons
+
+## Typography
+
+- default fira code
+- iosevka with JS ligations (aka '===')
 
 ## Extensions for Collaboration
 
