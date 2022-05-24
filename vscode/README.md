@@ -1,5 +1,3 @@
-# 🛠 Dotfiles for VS Code + Iterm2
-
 ## Default Extensions
 
 - vim
