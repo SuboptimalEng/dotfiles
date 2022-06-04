@@ -53,7 +53,10 @@
   "editor.formatOnSave": true,
   "editor.hover.enabled": false,
   "editor.fontLigatures": true,
+
   "editor.fontFamily": "Iosevka Custom",
+  "workbench.fontAliasing": "antialiased",
+
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "blink",
   "editor.renderWhitespace": "none",
