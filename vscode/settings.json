@@ -53,7 +53,6 @@
   "editor.formatOnSave": true,
   "editor.hover.enabled": false,
   "editor.fontLigatures": true,
-  // "editor.fontFamily": "Monaco",
   "editor.fontFamily": "Iosevka Custom",
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "blink",
