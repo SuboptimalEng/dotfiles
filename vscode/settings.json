@@ -53,6 +53,7 @@
   "editor.formatOnSave": true,
   "editor.hover.enabled": false,
   "editor.fontLigatures": true,
+  // "editor.fontFamily": "Monaco",
   "editor.fontFamily": "Iosevka Custom",
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "blink",
@@ -96,6 +97,7 @@
 
   "workbench.activityBar.visible": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
+  "workbench.fontAliasing": "antialiased",
 
   // Use vim hjkl to navigate folders.
   "workbench.list.keyboardNavigation": "simple",
