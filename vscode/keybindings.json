@@ -25,16 +25,6 @@
     }
   },
 
-  // Quickly debug with console log.
-  {
-    "key": "ctrl+l",
-    "command": "editor.action.insertSnippet",
-    "when": "editorTextFocus",
-    "args": {
-      "snippet": "console.log('${TM_SELECTED_TEXT}$1')$2;"
-    }
-  },
-
   // Traverse VSCode IntelliSense suggestions with vim keybindings.
   {
     "key": "cmd+j",
