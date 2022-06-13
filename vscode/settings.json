@@ -44,7 +44,6 @@
 
   "breadcrumbs.enabled": false,
 
-  "editor.fontSize": 15,
   "editor.wordWrap": "on",
   "editor.lineNumbers": "on",
   "editor.codeLens": false,
@@ -53,7 +52,6 @@
   "editor.formatOnSave": true,
   "editor.hover.enabled": false,
   "editor.fontLigatures": true,
-  "editor.fontFamily": "Iosevka Custom",
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "blink",
   "editor.renderWhitespace": "none",
@@ -65,6 +63,15 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
   "editor.renderLineHighlight": "all",
+
+  // font settings
+  "editor.fontFamily": "Iosevka Custom",
+  "editor.fontSize": 16,
+  "editor.fontWeight": "500",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.fontWeight": "400",
+  "terminal.integrated.fontWeightBold": "400",
+  "workbench.fontAliasing": "antialiased",
 
   "explorer.compactFolders": false,
 
@@ -80,9 +87,6 @@
 
   "telemetry.telemetryLevel": "off",
 
-  "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontWeight": "400",
-  "terminal.integrated.fontWeightBold": "400",
   "terminal.integrated.drawBoldTextInBrightColors": false,
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.copyOnSelection": true,
@@ -96,7 +100,6 @@
 
   "workbench.activityBar.visible": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
-  "workbench.fontAliasing": "antialiased",
 
   // Use vim hjkl to navigate folders.
   "workbench.list.keyboardNavigation": "simple",
