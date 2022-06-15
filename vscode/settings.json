@@ -21,7 +21,9 @@
     },
     {
       "before": ["d", "f"],
-      "after": ["g", "d"]
+      "commands": ["typescript.goToSourceDefinition"]
+      // gd takes you to .d.ts file which is suboptimal
+      // "after": ["g", "d"]
     },
     {
       "before": ["d", "n"],
