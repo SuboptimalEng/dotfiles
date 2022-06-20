@@ -20,10 +20,15 @@
       "after": ["v", "g", "_", "y"]
     },
     {
+      // find the source definition instead of the .d.ts file
       "before": ["d", "f"],
       "commands": ["typescript.goToSourceDefinition"]
-      // gd takes you to .d.ts file which is suboptimal
-      // "after": ["g", "d"]
+    },
+    {
+      // fd is easier to hit than gd
+      // takes you to the .d.ts file
+      "before": ["f", "d"],
+      "after": ["g", "d"]
     },
     {
       "before": ["d", "n"],
