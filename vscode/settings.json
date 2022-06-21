@@ -21,13 +21,14 @@
     },
     {
       // find the source definition instead of the .d.ts file
-      "before": ["d", "f"],
+      // 'f'ind the source 'd'efinition
+      "before": ["f", "d"],
       "commands": ["typescript.goToSourceDefinition"]
     },
     {
-      // fd is easier to hit than gd
-      // takes you to the .d.ts file
-      "before": ["f", "d"],
+      // df is easier to hit than gd
+      // go to the 'd'e'f'inition
+      "before": ["d", "f"],
       "after": ["g", "d"]
     },
     {
