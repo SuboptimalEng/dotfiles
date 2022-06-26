@@ -59,7 +59,6 @@
   "editor.glyphMargin": false,
   "editor.formatOnSave": true,
   "editor.hover.enabled": false,
-  "editor.fontLigatures": true,
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "blink",
   "editor.renderWhitespace": "none",
@@ -73,14 +72,16 @@
   "editor.renderLineHighlight": "all",
 
   // font settings
-  "editor.fontFamily": "Iosevka Custom",
   "editor.fontSize": 16,
   "editor.fontWeight": "500",
   "terminal.integrated.fontSize": 14,
-  "terminal.integrated.fontWeight": "400",
-  "terminal.integrated.fontWeightBold": "400",
+  "terminal.integrated.fontWeight": "500",
+  "terminal.integrated.fontWeightBold": "500",
   "workbench.fontAliasing": "antialiased",
+  "editor.fontFamily": "Iosevka Custom",
+  "editor.fontLigatures": true,
   // "editor.fontFamily": "JetBrains Mono",
+  // "editor.fontLigatures": "'calt', 'zero'",
   // "editor.letterSpacing": -0.5,
   // "terminal.integrated.letterSpacing": -0.5,
 
