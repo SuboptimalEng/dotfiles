@@ -80,6 +80,9 @@
   "terminal.integrated.fontWeight": "400",
   "terminal.integrated.fontWeightBold": "400",
   "workbench.fontAliasing": "antialiased",
+  // "editor.fontFamily": "JetBrains Mono",
+  // "editor.letterSpacing": -0.5,
+  // "terminal.integrated.letterSpacing": -0.5,
 
   "explorer.compactFolders": false,
 
