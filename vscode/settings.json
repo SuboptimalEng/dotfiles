@@ -79,7 +79,7 @@
   "terminal.integrated.fontWeightBold": "400",
   "workbench.fontAliasing": "antialiased",
   "editor.fontFamily": "Iosevka Custom",
-  "editor.fontLigatures": true,
+  // "editor.fontLigatures": true,
 
   "explorer.compactFolders": false,
 
