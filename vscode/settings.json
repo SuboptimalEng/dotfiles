@@ -80,10 +80,6 @@
   "workbench.fontAliasing": "antialiased",
   "editor.fontFamily": "Iosevka Custom",
   "editor.fontLigatures": true,
-  // "editor.fontFamily": "JetBrains Mono",
-  // "editor.fontLigatures": "'calt', 'zero'",
-  // "editor.letterSpacing": -0.5,
-  // "terminal.integrated.letterSpacing": -0.5,
 
   "explorer.compactFolders": false,
 
