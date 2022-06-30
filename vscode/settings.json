@@ -116,6 +116,19 @@
 
   "zenMode.hideTabs": false,
   "zenMode.hideLineNumbers": false,
+
+  // italicize comments in github dark default theme
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+
   "workbench.colorCustomizations": {
     // github dark
     "terminal.foreground": "#cccccc",
