@@ -4,10 +4,10 @@ function zle-keymap-select() {
   VI_KEYMAP=$KEYMAP
 
   # change cursor style in vi-mode
-  case $KEYMAP in
-    vicmd)      print -n -- "\E]50;CursorShape=0\C-G";; # block cursor
-    viins|main) print -n -- "\E]50;CursorShape=1\C-G";; # line cursor
-  esac
+  # case $KEYMAP in
+  #   vicmd)      print -n -- "\E]50;CursorShape=0\C-G";; # block cursor
+  #   viins|main) print -n -- "\E]50;CursorShape=1\C-G";; # line cursor
+  # esac
 
   zle reset-prompt
   zle -R
