@@ -52,6 +52,7 @@
 
   "breadcrumbs.enabled": false,
 
+  "editor.tabSize": 2,
   "editor.wordWrap": "on",
   "editor.lineNumbers": "on",
   "editor.codeLens": false,
