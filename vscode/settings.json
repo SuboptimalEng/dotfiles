@@ -132,28 +132,23 @@
 
   "workbench.colorCustomizations": {
     // github dark
-    "terminal.foreground": "#cccccc",
-    "terminal.background": "#010409",
-
-    "editor.background": "#010409",
-    "sideBar.background": "#010409",
-    "statusBar.background": "#010409",
-    "activityBar.background": "#010409"
-
+    // "terminal.foreground": "#cccccc",
+    // "terminal.background": "#010409",
+    // "editor.background": "#010409",
+    // "sideBar.background": "#010409",
+    // "statusBar.background": "#010409",
+    // "activityBar.background": "#010409"
     // gruvbox dark
-    // "terminal.foreground": "#cccccc"
-    // "terminal.background": "#070808",
-
-    // "quickInput.background": "#1d2021",
-    // "quickInputList.focusBackground": "#070808",
-
-    // "editor.background": "#070808",
-    // "sideBar.background": "#070808",
-    // "tab.activeBackground": "#070808",
-    // "statusBar.background": "#070808",
-    // "activityBar.background": "#070808",
-
-    // "editorLineNumber.activeForeground": "#cccccc"
+    "terminal.foreground": "#cccccc",
+    "terminal.background": "#070808",
+    "quickInput.background": "#1d2021",
+    "quickInputList.focusBackground": "#070808",
+    "editor.background": "#070808",
+    "sideBar.background": "#070808",
+    "tab.activeBackground": "#070808",
+    "statusBar.background": "#070808",
+    "activityBar.background": "#070808",
+    "editorLineNumber.activeForeground": "#cccccc"
   },
   // NOTE: Set highly variable settings at the end of the file.
   "window.zoomLevel": 3,
