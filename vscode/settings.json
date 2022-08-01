@@ -59,7 +59,8 @@
   "editor.folding": false,
   "editor.glyphMargin": false,
   "editor.formatOnSave": true,
-  "editor.hover.enabled": false,
+  // "editor.hover.enabled": false,
+  // "editor.colorDecorators": false,
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "blink",
   "editor.renderWhitespace": "none",
@@ -76,24 +77,26 @@
   "editor.fontSize": 18,
   "editor.lineHeight": 1.4,
   "editor.fontWeight": "400",
+  "editor.fontLigatures": true,
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.fontWeight": "300",
   "terminal.integrated.fontWeightBold": "300",
   "workbench.fontAliasing": "antialiased",
   "editor.fontFamily": "Iosevka Custom",
-  "editor.fontLigatures": true,
+  "terminal.integrated.fontFamily": "Iosevka Custom Extended",
 
   "explorer.compactFolders": false,
 
   "files.trimTrailingWhitespace": true,
   "files.exclude": {
     "**/node_modules": true,
-    "**/package-lock.json": true
+    "**/package-lock.json": true,
     // Hide js files after running tsc.
-    // "**/*.js": { "when": "$(basename).ts" }
+    "**/*.js": { "when": "$(basename).ts" }
   },
 
   "search.searchOnType": false,
+  "scm.diffDecorationsGutterAction": "none",
 
   "telemetry.telemetryLevel": "off",
 
@@ -102,7 +105,7 @@
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.tabs.enabled": false,
-  "terminal.integrated.gpuAcceleration": "on",
+  // "terminal.integrated.gpuAcceleration": "on",
 
   "typescript.updateImportsOnFileMove.enabled": "always",
 
@@ -150,8 +153,7 @@
     "activityBar.background": "#070808",
     "editorLineNumber.activeForeground": "#cccccc"
   },
-  // NOTE: Set highly variable settings at the end of the file.
-  "window.zoomLevel": 3,
+  "window.zoomLevel": 2,
   "workbench.iconTheme": "vscode-great-icons",
   "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.tree.renderIndentGuides": "none"
