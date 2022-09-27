@@ -161,6 +161,7 @@
   // settings for webgl + glsl extensions
   "glsl-canvas.antialias": true,
   "glsl-canvas.refreshOnChange": false,
+  "webgl-glsl-editor.format.placeSpaceAfterKeywords": true,
   "[glsl]": {
     "editor.defaultFormatter": "raczzalan.webgl-glsl-editor"
   },
