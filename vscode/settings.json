@@ -159,7 +159,6 @@
   "workbench.tree.renderIndentGuides": "none",
 
   // settings for webgl + glsl extensions
-  "glsl-canvas.antialias": true,
   "glsl-canvas.refreshOnChange": false,
   "webgl-glsl-editor.format.placeSpaceAfterKeywords": true,
   "[glsl]": {
