@@ -13,7 +13,8 @@
 
 ## Favorite Themes
 
-- gruvbox themes
+- gruvbox dark
+- github default dark
 - vscode great icons
 
 ## Favorite Fonts
