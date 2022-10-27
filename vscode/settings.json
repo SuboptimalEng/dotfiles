@@ -72,7 +72,6 @@
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
   "editor.renderLineHighlight": "all",
-  "editor.inlayHints.enabled": "off",
 
   // font settings
   "editor.fontSize": 18,
@@ -163,12 +162,7 @@
   "glsl-canvas.refreshOnChange": false,
   "webgl-glsl-editor.format.placeSpaceAfterKeywords": true,
   "[glsl]": {
-    "editor.defaultFormatter": "raczzalan.webgl-glsl-editor"
-  },
-  "[frag]": {
-    "editor.defaultFormatter": "raczzalan.webgl-glsl-editor"
-  },
-  "[vert]": {
+    "editor.inlayHints.enabled": "off",
     "editor.defaultFormatter": "raczzalan.webgl-glsl-editor"
   }
 }
