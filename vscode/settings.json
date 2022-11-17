@@ -135,28 +135,35 @@
 
   "workbench.colorCustomizations": {
     // github dark
-    // "terminal.foreground": "#cccccc",
-    // "terminal.background": "#010409",
-    // "editor.background": "#010409",
-    // "sideBar.background": "#010409",
-    // "statusBar.background": "#010409",
-    // "activityBar.background": "#010409"
-    // gruvbox dark
     "terminal.foreground": "#cccccc",
-    "terminal.background": "#070808",
-    "quickInput.background": "#1d2021",
-    "quickInputList.focusBackground": "#070808",
-    "editor.background": "#070808",
-    "sideBar.background": "#070808",
-    "tab.activeBackground": "#070808",
-    "statusBar.background": "#070808",
-    "activityBar.background": "#070808",
-    "editorLineNumber.activeForeground": "#cccccc"
+    "terminal.background": "#010409",
+    "editor.background": "#010409",
+    "sideBar.background": "#010409",
+    "statusBar.background": "#010409",
+    "activityBar.background": "#010409"
+    // gruvbox dark
+    // "terminal.foreground": "#cccccc",
+    // "terminal.background": "#070808",
+    // "quickInput.background": "#1d2021",
+    // "quickInputList.focusBackground": "#070808",
+    // "editor.background": "#070808",
+    // "sideBar.background": "#070808",
+    // "tab.activeBackground": "#070808",
+    // "statusBar.background": "#070808",
+    // "activityBar.background": "#070808",
+    // "editorLineNumber.activeForeground": "#cccccc"
   },
   "window.zoomLevel": 2,
   "workbench.iconTheme": "vscode-great-icons",
   "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.tree.renderIndentGuides": "none",
+
+  // glsl canvas
+  "glsl-canvas.textures": {
+    "0": "./glsl-from-scratch/images/jojo.png",
+    "1": "./glsl-from-scratch/images/mario.png",
+    "2": "https://rawgit.com/actarian/plausible-brdf-shader/master/textures/noise/cloud-1.png"
+  },
 
   // settings for webgl + glsl extensions
   "glsl-canvas.refreshOnChange": false,
