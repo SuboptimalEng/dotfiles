@@ -23,5 +23,6 @@
 - iosevka custom:
   - 300, 400, 500
   - regular/italic
+  - regular/extended
   - javascript ligatures
-  - 'cv71' 2 - zero - iosevka 0
+  - jetbrains version zero (0)
