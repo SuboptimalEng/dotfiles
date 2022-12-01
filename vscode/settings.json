@@ -74,11 +74,10 @@
   "editor.renderLineHighlight": "all",
 
   // font settings
-  "editor.fontSize": 18,
-  "editor.lineHeight": 1.4,
+  "editor.fontSize": 16.5,
   "editor.fontWeight": "400",
   "editor.fontLigatures": true,
-  "terminal.integrated.fontSize": 16,
+  "terminal.integrated.fontSize": 16.5,
   "terminal.integrated.fontWeight": "300",
   "terminal.integrated.fontWeightBold": "300",
   "workbench.fontAliasing": "antialiased",
@@ -142,27 +141,26 @@
 
   "workbench.colorCustomizations": {
     // github dark
-    "terminal.foreground": "#cccccc",
-    "terminal.background": "#010409",
-    "editor.background": "#010409",
-    "sideBar.background": "#010409",
-    "statusBar.background": "#010409",
-    "activityBar.background": "#010409"
-    // gruvbox dark
     // "terminal.foreground": "#cccccc",
-    // "terminal.background": "#070808",
-    // "quickInput.background": "#1d2021",
-    // "quickInputList.focusBackground": "#070808",
-    // "editor.background": "#070808",
-    // "sideBar.background": "#070808",
-    // "tab.activeBackground": "#070808",
-    // "statusBar.background": "#070808",
-    // "activityBar.background": "#070808",
-    // "editorLineNumber.activeForeground": "#cccccc"
+    // "terminal.background": "#010409",
+    // "editor.background": "#010409",
+    // "sideBar.background": "#010409",
+    // "statusBar.background": "#010409",
+    // "activityBar.background": "#010409"
+
+    // gruvbox dark
+    "terminal.foreground": "#cccccc",
+    "terminal.background": "#070808",
+    "quickInput.background": "#1d2021",
+    "quickInputList.focusBackground": "#070808",
+    "editor.background": "#070808",
+    "sideBar.background": "#070808",
+    "tab.activeBackground": "#070808",
+    "statusBar.background": "#070808",
+    "activityBar.background": "#070808",
+    "editorLineNumber.activeForeground": "#cccccc"
   },
-  "window.zoomLevel": 2,
   "workbench.iconTheme": "vscode-great-icons",
-  "workbench.colorTheme": "Gruvbox Dark Hard",
   "workbench.tree.renderIndentGuides": "none",
 
   // glsl canvas
@@ -178,5 +176,7 @@
   "[glsl]": {
     "editor.inlayHints.enabled": "off",
     "editor.defaultFormatter": "raczzalan.webgl-glsl-editor"
-  }
+  },
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "window.zoomLevel": 1
 }
