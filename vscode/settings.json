@@ -133,6 +133,13 @@
     ]
   },
 
+  // control what gets rendered in the editor overview ruler (scrollbar)
+  "editor.overviewRulerBorder": false,
+  "editor.occurrencesHighlight": false,
+  // "editor.hideCursorInOverviewRuler": true,
+  // "editor.selectionHighlight": true,
+  // "editor.matchBrackets": "never",
+
   "workbench.colorCustomizations": {
     // github dark
     "terminal.foreground": "#cccccc",
