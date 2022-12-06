@@ -165,8 +165,8 @@
 
   // glsl canvas
   "glsl-canvas.textures": {
-    "0": "./shader-exp/glsl-from-scratch/images/jojo.png",
-    "1": "./shader-exp/glsl-from-scratch/images/mario.png",
+    "0": "./glslx/glsl-from-scratch/images/jojo.png",
+    "1": "./glslx/glsl-from-scratch/images/mario.png",
     "2": "https://rawgit.com/actarian/plausible-brdf-shader/master/textures/noise/cloud-1.png"
   },
 
