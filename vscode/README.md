@@ -10,6 +10,10 @@
 - collaboration:
   - gitlens
   - restore git branches
+- unity:
+  - c#
+  - unity code snippets
+  - csharpier - code formatter
 
 ## Favorite Themes
 

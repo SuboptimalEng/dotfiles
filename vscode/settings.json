@@ -50,7 +50,7 @@
     }
   ],
 
-  "breadcrumbs.enabled": false,
+  "breadcrumbs.enabled": true,
 
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
@@ -60,29 +60,32 @@
   "editor.glyphMargin": false,
   "editor.formatOnSave": true,
   // "editor.hover.enabled": false,
-  // "editor.colorDecorators": false,
+  "editor.colorDecorators": false,
   "editor.minimap.enabled": false,
   "editor.cursorBlinking": "blink",
   "editor.renderWhitespace": "none",
   "editor.suggestSelection": "first",
   "editor.guides.indentation": false,
   "editor.renderControlCharacters": false,
-  "editor.cursorSmoothCaretAnimation": true,
+  "editor.cursorSmoothCaretAnimation": "on",
   "editor.bracketPairColorization.enabled": false,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "prettier.singleQuote": true,
   "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
   "editor.renderLineHighlight": "all",
 
   // font settings
-  "editor.fontSize": 16.5,
-  "editor.fontWeight": "400",
+  "editor.fontSize": 17,
+  "editor.fontWeight": "500",
   "editor.fontLigatures": true,
-  "terminal.integrated.fontSize": 16.5,
-  "terminal.integrated.fontWeight": "300",
-  "terminal.integrated.fontWeightBold": "300",
+  "terminal.integrated.fontSize": 17,
+  "terminal.integrated.fontWeight": "500",
+  "terminal.integrated.fontWeightBold": "500",
   "workbench.fontAliasing": "antialiased",
   "editor.fontFamily": "Iosevka Custom",
-  "terminal.integrated.fontFamily": "Iosevka Custom Extended",
+  // "editor.fontFamily": "Cascadia Code",
+  "terminal.integrated.fontFamily": "Iosevka Custom",
+  // "terminal.integrated.fontFamily": "Cascadia Code",
 
   "explorer.compactFolders": false,
 
@@ -103,19 +106,18 @@
   "terminal.integrated.defaultProfile.osx": "zsh",
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.tabs.enabled": false,
   // "terminal.integrated.gpuAcceleration": "on",
 
   "typescript.updateImportsOnFileMove.enabled": "always",
 
   "vsintellicode.modify.editor.suggestSelection": "choseToUpdateConfiguration",
 
-  "workbench.activityBar.visible": false,
+  // "workbench.activityBar.visible": false,
   "workbench.editor.enablePreviewFromQuickOpen": false,
 
   // Use vim hjkl to navigate folders.
-  "workbench.list.keyboardNavigation": "simple",
-  "workbench.list.automaticKeyboardNavigation": false,
+  // "workbench.list.keyboardNavigation": "simple",
+  // "workbench.list.automaticKeyboardNavigation": false,
 
   "zenMode.hideTabs": false,
   "zenMode.hideLineNumbers": false,
@@ -147,18 +149,17 @@
     // "sideBar.background": "#010409",
     // "statusBar.background": "#010409",
     // "activityBar.background": "#010409"
-
     // gruvbox dark
-    "terminal.foreground": "#cccccc",
-    "terminal.background": "#070808",
-    "quickInput.background": "#1d2021",
-    "quickInputList.focusBackground": "#070808",
-    "editor.background": "#070808",
-    "sideBar.background": "#070808",
-    "tab.activeBackground": "#070808",
-    "statusBar.background": "#070808",
-    "activityBar.background": "#070808",
-    "editorLineNumber.activeForeground": "#cccccc"
+    // "terminal.foreground": "#cccccc",
+    // "terminal.background": "#070808",
+    // "quickInput.background": "#1d2021",
+    // "quickInputList.focusBackground": "#070808",
+    // "editor.background": "#070808",
+    // "sideBar.background": "#070808",
+    // "tab.activeBackground": "#070808",
+    // "statusBar.background": "#070808",
+    // "activityBar.background": "#070808",
+    // "editorLineNumber.activeForeground": "#cccccc"
   },
   "workbench.iconTheme": "vscode-great-icons",
   "workbench.tree.renderIndentGuides": "none",
@@ -172,11 +173,17 @@
 
   // settings for webgl + glsl extensions
   "glsl-canvas.refreshOnChange": false,
+  // "workbench.colorTheme": "Visual Studio Dark"
   "webgl-glsl-editor.format.placeSpaceAfterKeywords": true,
   "[glsl]": {
     "editor.inlayHints.enabled": "off",
     "editor.defaultFormatter": "raczzalan.webgl-glsl-editor"
   },
-  "workbench.colorTheme": "Gruvbox Dark Hard",
-  "window.zoomLevel": 1
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Default Dark Modern",
+  "[csharp]": {
+    "editor.defaultFormatter": "csharpier.csharpier-vscode"
+  },
+  "omnisharp.useModernNet": false,
+  "omnisharp.monoPath": "/Library/Frameworks/Mono.framework/Versions/Current"
 }
