@@ -83,9 +83,7 @@
   "terminal.integrated.fontWeightBold": "500",
   "workbench.fontAliasing": "antialiased",
   "editor.fontFamily": "Iosevka Custom",
-  // "editor.fontFamily": "Cascadia Code",
   "terminal.integrated.fontFamily": "Iosevka Custom",
-  // "terminal.integrated.fontFamily": "Cascadia Code",
 
   "explorer.compactFolders": false,
 
