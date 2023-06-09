@@ -177,11 +177,15 @@
     "editor.inlayHints.enabled": "off",
     "editor.defaultFormatter": "raczzalan.webgl-glsl-editor"
   },
-  "window.zoomLevel": 1,
-  "workbench.colorTheme": "Default Dark Modern",
   "[csharp]": {
     "editor.defaultFormatter": "csharpier.csharpier-vscode"
   },
   "omnisharp.useModernNet": false,
-  "omnisharp.monoPath": "/Library/Frameworks/Mono.framework/Versions/Current"
+  "omnisharp.monoPath": "/Library/Frameworks/Mono.framework/Versions/Current",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 2, ColumnLimit: 100}",
+  "window.zoomLevel": 1,
+  "workbench.colorTheme": "Default Dark Modern"
 }

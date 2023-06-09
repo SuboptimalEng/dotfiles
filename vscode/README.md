@@ -14,6 +14,7 @@
   - c#
   - unity code snippets
   - csharpier - code formatter
+- c/c++ extension pack
 
 ## Favorite Themes
 
