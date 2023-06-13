@@ -24,10 +24,14 @@
 
 ## Favorite Fonts
 
-- jetbrains mono
 - iosevka custom:
   - 300, 400, 500
   - regular/italic
   - regular/extended
   - javascript ligatures
   - jetbrains version zero (0)
+
+## DaVinci Resolve
+
+- magic zoom plugin
+- text-based editing
