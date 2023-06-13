@@ -33,5 +33,6 @@
 
 ## DaVinci Resolve
 
+- auto subtitles
 - magic zoom plugin
 - text-based editing
