@@ -148,17 +148,36 @@
     // "sideBar.background": "#010409",
     // "statusBar.background": "#010409",
     // "activityBar.background": "#010409"
-    // gruvbox dark
+
+    // gruvbox dark old
     // "terminal.foreground": "#cccccc",
+    // "panel.background": "#070808",
     // "terminal.background": "#070808",
     // "quickInput.background": "#1d2021",
     // "quickInputList.focusBackground": "#070808",
     // "editor.background": "#070808",
     // "sideBar.background": "#070808",
     // "tab.activeBackground": "#070808",
-    // "statusBar.background": "#070808",
     // "activityBar.background": "#070808",
     // "editorLineNumber.activeForeground": "#cccccc"
+
+    // gruvbox dark new
+    "terminal.foreground": "#cccccc",
+    "panel.background": "#000000",
+    "terminal.background": "#000000",
+    "editor.background": "#000000",
+    "sideBar.background": "#000000",
+    "tab.activeBackground": "#000000",
+    "tab.activeBorderTop": "#3c3836",
+    "tab.activeBorder": "#000000",
+    "tab.border": "#3c3836",
+    "tab.hoverBackground": "#000000",
+    "statusBar.background": "#000000",
+    "activityBar.background": "#000000",
+    "titleBar.activeBackground": "#000000",
+    "quickInputList.focusBackground": "#000000",
+    "editorGroupHeader.tabsBackground": "#000000",
+    "editorLineNumber.activeForeground": "#cccccc"
   },
   "workbench.iconTheme": "vscode-great-icons",
   "workbench.tree.renderIndentGuides": "none",
