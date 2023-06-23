@@ -162,22 +162,39 @@
     // "editorLineNumber.activeForeground": "#cccccc"
 
     // gruvbox dark new
-    "terminal.foreground": "#ebdbb2",
+    // "terminal.foreground": "#ebdbb2",
+    // "panel.background": "#000000",
+    // "terminal.background": "#000000",
+    // "editor.background": "#000000",
+    // "sideBar.background": "#000000",
+    // "tab.activeBackground": "#000000",
+    // "tab.activeBorderTop": "#3c3836",
+    // "tab.activeBorder": "#000000",
+    // "tab.border": "#3c3836",
+    // "tab.hoverBackground": "#000000",
+    // "statusBar.background": "#000000",
+    // "activityBar.background": "#000000",
+    // "titleBar.activeBackground": "#000000",
+    // "titleBar.inactiveBackground": "#000000",
+    // "quickInputList.focusBackground": "#000000",
+    // "editorGroupHeader.tabsBackground": "#000000",
+    // "editorLineNumber.activeForeground": "#ebdbb2"
+
+    // visual studio code dark modern
     "panel.background": "#000000",
     "terminal.background": "#000000",
     "editor.background": "#000000",
     "sideBar.background": "#000000",
     "tab.activeBackground": "#000000",
-    "tab.activeBorderTop": "#3c3836",
     "tab.activeBorder": "#000000",
     "tab.border": "#3c3836",
     "tab.hoverBackground": "#000000",
     "statusBar.background": "#000000",
     "activityBar.background": "#000000",
     "titleBar.activeBackground": "#000000",
+    "titleBar.inactiveBackground": "#000000",
     "quickInputList.focusBackground": "#000000",
-    "editorGroupHeader.tabsBackground": "#000000",
-    "editorLineNumber.activeForeground": "#ebdbb2"
+    "editorGroupHeader.tabsBackground": "#000000"
   },
   "workbench.iconTheme": "vscode-great-icons",
   "workbench.tree.renderIndentGuides": "none",
