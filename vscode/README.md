@@ -22,13 +22,14 @@
 - github default dark
 - vscode great icons
 
-## Favorite Fonts
+## Favorite Font
 
 - iosevka custom:
-  - 300, 400, 500
+  - 100 - 900
   - regular/italic
   - regular/extended
   - javascript ligatures
+  - no notch in equals sign
   - jetbrains version zero (0)
 
 ## DaVinci Resolve
