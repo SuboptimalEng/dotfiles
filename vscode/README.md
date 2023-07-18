@@ -25,12 +25,11 @@
 ## Favorite Font
 
 - iosevka custom:
-  - 100 - 900
-  - regular/italic
-  - regular/extended
-  - javascript ligatures
+  - sizes: 100 - 900
+  - upright/oblique/italic
+  - jetbrains style zero (0)
   - no notch in equals sign
-  - jetbrains version zero (0)
+  - javascript ligatures
 
 ## DaVinci Resolve
 
