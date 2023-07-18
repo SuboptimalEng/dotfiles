@@ -25,8 +25,8 @@
 ## Favorite Font
 
 - iosevka custom:
-  - sizes: 100 - 900
-  - upright/oblique/italic
+  - sizes: 200 - 600
+  - upright and italic
   - jetbrains style zero (0)
   - no notch in equals sign
   - javascript ligatures
