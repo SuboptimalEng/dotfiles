@@ -25,7 +25,7 @@
 ## Favorite Font
 
 - iosevka custom:
-  - sizes: 200 - 600
+  - sizes: 300 - 600
   - upright and italic
   - jetbrains style zero (0)
   - no notch in equals sign
