@@ -219,6 +219,8 @@
   },
   "omnisharp.useModernNet": false,
   "omnisharp.monoPath": "/Library/Frameworks/Mono.framework/Versions/Current",
+  "dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "none",
+  "dotnet.server.useOmnisharp": true,
   "window.zoomLevel": 1,
   "workbench.colorTheme": "Default Dark Modern"
 }
