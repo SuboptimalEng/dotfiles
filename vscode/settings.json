@@ -140,6 +140,7 @@
   // "editor.selectionHighlight": true,
   // "editor.matchBrackets": "never",
 
+  "window.commandCenter": false,
   "workbench.colorCustomizations": {
     // github dark
     // "terminal.foreground": "#cccccc",
