@@ -36,3 +36,9 @@
 - auto subtitles
 - magic zoom plugin
 - text-based editing
+
+## Latex
+
+- MacTex
+- LaTeX Workshop
+- brew install latexindent (nah)
