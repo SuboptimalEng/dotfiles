@@ -42,3 +42,4 @@
 - MacTex
 - LaTeX Workshop
 - brew install latexindent (nah)
+- https://latexindentpl.readthedocs.io/en/latest/sec-appendices.html#mac
