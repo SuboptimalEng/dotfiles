@@ -90,11 +90,6 @@
 
   "files.trimTrailingWhitespace": true,
   "files.exclude": {
-    "**/*.aux": true,
-    "**/*.fdb_latexmk": true,
-    "**/*.fls": true,
-    "**/*.log": true,
-    "**/*.synctex.gz": true,
     "**/node_modules": true,
     "**/package-lock.json": true,
     // Hide js files after running tsc.
