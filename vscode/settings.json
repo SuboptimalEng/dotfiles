@@ -129,6 +129,74 @@
         "settings": {
           "fontStyle": "italic"
         }
+      },
+      {
+        "scope": "storage.type",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution",
+        "settings": {
+          "fontStyle": "underline"
+        }
+      },
+      {
+        "scope": "entity.other.inherited-class",
+        "settings": {
+          "foreground": "#A6E22E",
+          "fontStyle": "italic underline"
+        }
+      },
+      {
+        "scope": "variable.parameter",
+        "settings": {
+          "foreground": "#FD971F",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "support.type, support.class",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "markup.heading.setext",
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "markup.heading.markdown",
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "markup.quote.markdown",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "markup.bold.markdown",
+        "settings": {
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "markup.italic.markdown",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "markup.strikethrough",
+        "settings": {
+          "fontStyle": "strikethrough"
+        }
       }
     ]
   },
@@ -149,7 +217,7 @@
     // "sideBar.background": "#010409",
     // "statusBar.background": "#010409",
     // "activityBar.background": "#010409"
-
+    // ===
     // gruvbox dark old
     // "terminal.foreground": "#cccccc",
     // "panel.background": "#070808",
@@ -161,32 +229,15 @@
     // "tab.activeBackground": "#070808",
     // "activityBar.background": "#070808",
     // "editorLineNumber.activeForeground": "#cccccc"
-
+    // ===
     // gruvbox dark new
-    // "terminal.foreground": "#ebdbb2",
-    // "panel.background": "#000000",
-    // "terminal.background": "#000000",
-    // "editor.background": "#000000",
-    // "sideBar.background": "#000000",
-    // "tab.activeBackground": "#000000",
-    // "tab.activeBorderTop": "#3c3836",
-    // "tab.activeBorder": "#000000",
-    // "tab.border": "#3c3836",
-    // "tab.hoverBackground": "#000000",
-    // "statusBar.background": "#000000",
-    // "activityBar.background": "#000000",
-    // "titleBar.activeBackground": "#000000",
-    // "titleBar.inactiveBackground": "#000000",
-    // "quickInputList.focusBackground": "#000000",
-    // "editorGroupHeader.tabsBackground": "#000000",
-    // "editorLineNumber.activeForeground": "#ebdbb2"
-
-    // visual studio code dark modern
+    "terminal.foreground": "#ebdbb2",
     "panel.background": "#000000",
     "terminal.background": "#000000",
     "editor.background": "#000000",
     "sideBar.background": "#000000",
     "tab.activeBackground": "#000000",
+    "tab.activeBorderTop": "#3c3836",
     "tab.activeBorder": "#000000",
     "tab.border": "#3c3836",
     "tab.hoverBackground": "#000000",
@@ -195,16 +246,34 @@
     "titleBar.activeBackground": "#000000",
     "titleBar.inactiveBackground": "#000000",
     "quickInputList.focusBackground": "#000000",
-    "editorGroupHeader.tabsBackground": "#000000"
+    "editorGroupHeader.tabsBackground": "#000000",
+    "editorLineNumber.activeForeground": "#ebdbb2"
+    // ===
+    // visual studio code dark modern
+    // "panel.background": "#000000",
+    // "terminal.background": "#000000",
+    // "editor.background": "#000000",
+    // "sideBar.background": "#000000",
+    // "tab.activeBackground": "#000000",
+    // "tab.activeBorder": "#000000",
+    // "tab.border": "#3c3836",
+    // "tab.hoverBackground": "#000000",
+    // "statusBar.background": "#000000",
+    // "activityBar.background": "#000000",
+    // "titleBar.activeBackground": "#000000",
+    // "titleBar.inactiveBackground": "#000000",
+    // "quickInputList.focusBackground": "#000000",
+    // "editorGroupHeader.tabsBackground": "#000000"
   },
   "workbench.iconTheme": "vscode-great-icons",
   "workbench.tree.renderIndentGuides": "none",
 
   // glsl canvas
   "glsl-canvas.textures": {
-    "0": "./glslx/glsl-from-scratch/images/jojo.png",
-    "1": "./glslx/glsl-from-scratch/images/mario.png",
-    "2": "https://rawgit.com/actarian/plausible-brdf-shader/master/textures/noise/cloud-1.png"
+    "0": "./shader-tutorials/09-gaussian-blur/mario.png",
+    "1": "./glslx/glsl-from-scratch/images/jojo.png",
+    "2": "./glslx/glsl-from-scratch/images/pikachu.png",
+    "3": "https://rawgit.com/actarian/plausible-brdf-shader/master/textures/noise/cloud-1.png"
   },
 
   // settings for webgl + glsl extensions
