@@ -292,5 +292,10 @@
   "dotnet.backgroundAnalysis.analyzerDiagnosticsScope": "none",
   "dotnet.server.useOmnisharp": true,
   "window.zoomLevel": 1,
-  "workbench.colorTheme": "Default Dark Modern"
+  "workbench.colorTheme": "Default Dark Modern",
+  "C_Cpp.formatting": "clangFormat",
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools",
+    "editor.formatOnSave": true
+  }
 }
