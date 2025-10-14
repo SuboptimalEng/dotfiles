@@ -1,0 +1,10 @@
+# file -> ~/.lldbinit
+
+# break point at main
+breakpoint set --name main
+
+# show assembly by default
+target stop-hook add -o "disassemble"
+
+# use this instead if you want to see 10 lines of assembly at program counter
+# target stop-hook add -o "disassemble --pc --count 10"
