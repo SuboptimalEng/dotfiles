@@ -1,8 +1,10 @@
 # Hello world
 
 # Keybinds
-- alt -> ctrl (power toys)
-- caps lock -> ctrl (power toys)
+- power toys
+  - alt -> ctrl(aka cmd)
+  - ctrl -> alt
+  - caps lock -> alt
 
 # Install
 - flux
@@ -16,4 +18,3 @@
 - Command: New-Item -Type File -Path $PROFILE -Force
 - Set commands
 - Run: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
-

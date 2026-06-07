@@ -62,16 +62,19 @@
   //   "key": "ctrl+ctrl+enter",
   //   "command": "workbench.action.toggleMaximizedPanel"
   // },
-  {
-    "key": "ctrl+d",
-    "command": "workbench.action.terminal.split",
-    "when": "terminalFocus && terminalProcessSupported"
-  },
-  {
-    "key": "ctrl+\\",
-    "command": "-workbench.action.terminal.split",
-    "when": "terminalFocus && terminalProcessSupported"
-  },
+
+  // do I ever use these?
+  // {
+  //   "key": "alt+d",
+  //   "command": "workbench.action.terminal.split",
+  //   "when": "terminalFocus && terminalProcessSupported"
+  // },
+  // {
+  //   "key": "alt+\\",
+  //   "command": "-workbench.action.terminal.split",
+  //   "when": "terminalFocus && terminalProcessSupported"
+  // },
+
   {
     "key": "ctrl+k",
     "command": "workbench.action.terminal.focusNextPane",
@@ -119,6 +122,11 @@
     "command": "actions.find",
     "when": "editorFocus || editorIsOpen || editorReadonly"
   },
+  // windows
+  // windows
+  // windows
+  // windows
+  // windows
   // prevent conflict with caps-lock b
   {
     "key": "ctrl+b",
@@ -146,18 +154,24 @@
     "key": "ctrl+c",
     "command": "editor.action.clipboardCopyAction"
   },
-  {
-    "key": "alt+c",
-    "command": "editor.action.clipboardCopyAction"
-  },
+  // {
+  //   "key": "alt+c",
+  //   "command": "editor.action.clipboardCopyAction"
+  // },
   // prevent conflict with ctrl-lock c
   {
     "key": "ctrl+v",
     "command": "editor.action.clipboardPasteAction"
   },
+  // {
+  //   "key": "alt+v",
+  //   "command": "editor.action.clipboardPasteAction"
+  // },
+  // windows
   {
-    "key": "alt+v",
-    "command": "editor.action.clipboardPasteAction"
+    "key": "ctrl+d",
+    "command": "editor.action.addSelectionToNextFindMatch",
+    "when": "editorFocus"
   },
 
   // {
