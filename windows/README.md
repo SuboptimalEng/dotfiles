@@ -12,4 +12,8 @@
 - obs
 - da vinci resolve
 
+# Mock Zsh Setup (via Notepad $PROFILE)
+- Command: New-Item -Type File -Path $PROFILE -Force
+- Set commands
+- Run: Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
