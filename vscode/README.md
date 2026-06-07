@@ -1,26 +1,27 @@
 ## Default Extensions
 
 - vim
-- prettier
-- glsl-canvas
-- webgl glsl editor
 - disable ligatures
-- tailwind css intellisense
 - visual studio intellicode
-- collaboration:
-  - gitlens
-  - restore git branches
-- unity:
-  - c#
-  - unity code snippets
-  - csharpier - code formatter
+- gitlens
 - c/c++ extension pack
+- not used anymore
+  - glsl-canvas
+  - webgl glsl editor
+  - restore git branches
+  - js
+    - prettier
+    - tailwind css intellisense
+  - unity:
+    - c#
+    - unity code snippets
+    - csharpier - code formatter
 
 ## Favorite Themes
 
 - gruvbox dark
-- github default dark
 - vscode great icons
+- github default dark
 
 ## Favorite Font
 

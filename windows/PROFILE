@@ -1,0 +1,24 @@
+# run: notepad $PROFILE
+# Mac/Zsh Git Shortcuts for Windows PowerShell
+
+# Functions (Using @args to safely pass all arguments and flags)
+function Git-Status     { git status @args }
+function Git-AddAll     { git add --all }
+function Git-CommitMsg  { git commit -m "$args" } # Keeps your message string intact
+function Git-Pull       { git pull @args }
+function Git-Push       { git push @args }
+function Git-Checkout   { git checkout @args }
+function Git-NewBranch  { git checkout -b @args }
+function Git-Diff       { git diff @args }
+
+# Aliases
+Set-Alias gst   Git-Status
+Set-Alias gaa   Git-AddAll
+Set-Alias gcmsg Git-CommitMsg
+Set-Alias gco   Git-Checkout
+Set-Alias gcb   Git-NewBranch
+Set-Alias gd    Git-Diff
+
+# Forced Aliases with AllScope Option (Fixes the AllScope error)
+Set-Alias gl    Git-Pull -Force -Option AllScope
+Set-Alias gp    Git-Push -Force -Option AllScope
