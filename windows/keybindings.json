@@ -110,15 +110,66 @@
     "when": "editorTextFocus && !editorTabMovesFocus"
   },
   {
+    "key": "ctrl+i backspace",
+    "command": "actions.find",
+    "when": "editorFocus || editorIsOpen"
+  },
+  {
     "key": "ctrl+f",
     "command": "actions.find",
     "when": "editorFocus || editorIsOpen || editorReadonly"
-  }
+  },
+  // prevent conflict with caps-lock b
+  {
+    "key": "ctrl+b",
+    "command": "-extension.vim_ctrl+b",
+    "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
+  },
+  {
+    "key": "alt+b",
+    "command": "extension.vim_ctrl+b",
+    "when": "editorTextFocus && vim.active && vim.use<C-b> && !inDebugRepl && vim.mode != 'Insert'"
+  },
+  // prevent conflict with caps-lock f
+  {
+    "key": "ctrl+f",
+    "command": "-extension.vim_ctrl+f",
+    "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode != 'Insert'"
+  },
+  {
+    "key": "alt+f",
+    "command": "extension.vim_ctrl+f",
+    "when": "editorTextFocus && vim.active && vim.use<C-f> && !inDebugRepl && vim.mode != 'Insert'"
+  },
+  // prevent conflict with ctrl-lock c
+  {
+    "key": "ctrl+c",
+    "command": "editor.action.clipboardCopyAction"
+  },
+  {
+    "key": "alt+c",
+    "command": "editor.action.clipboardCopyAction"
+  },
+  // prevent conflict with ctrl-lock c
+  {
+    "key": "ctrl+v",
+    "command": "editor.action.clipboardPasteAction"
+  },
+  {
+    "key": "alt+v",
+    "command": "editor.action.clipboardPasteAction"
+  },
+
+  // {
+  //   "key": "ctrl+b",
+  //   "command": "workbench.view.search.toggleVisibility",
+  //   "when": "editorReadonly"
+  // },
 
   // TODO: Traverse search results with vim
   // {
   //   "key": "cmd+j",
- //   "command": "search.action.focusNextSearchResult",
+  //   "command": "search.action.focusNextSearchResult",
   //   "when": "hasSearchResult && workbench.view.search.visible"
   // },
 
