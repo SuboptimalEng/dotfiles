@@ -8,7 +8,6 @@
     "key": "ctrl+j",
     "command": "workbench.action.previousEditor"
   },
-
   // // Move active editor left or right (useful for full-stack web dev).
   // {
   //   "key": "cmd+ctrl+j",
@@ -24,7 +23,6 @@
   //     "to": "right"
   //   }
   // },
-
   // Traverse VSCode IntelliSense suggestions with vim keybindings.
   {
     "key": "ctrl+j",
@@ -36,7 +34,6 @@
     "command": "selectPrevSuggestion",
     "when": "suggestWidgetMultipleSuggestions && suggestWidgetVisible && textInputFocus"
   },
-
   // Traverse VSCode quick open options with vim keybindings.
   {
     "key": "ctrl+j",
@@ -48,7 +45,6 @@
     "command": "workbench.action.quickOpenSelectPrevious",
     "when": "inQuickOpen"
   },
-
   // VSCode terminal commands.
   {
     "key": "ctrl+n",
@@ -62,7 +58,6 @@
   //   "key": "ctrl+ctrl+enter",
   //   "command": "workbench.action.toggleMaximizedPanel"
   // },
-
   // do I ever use these?
   // {
   //   "key": "alt+d",
@@ -74,7 +69,6 @@
   //   "command": "-workbench.action.terminal.split",
   //   "when": "terminalFocus && terminalProcessSupported"
   // },
-
   {
     "key": "ctrl+k",
     "command": "workbench.action.terminal.focusNextPane",
@@ -100,7 +94,6 @@
     "command": "workbench.action.terminal.kill",
     "when": "terminalFocus"
   },
-
   // Ensure that tab button works in vim.
   {
     "key": "tab",
@@ -173,24 +166,47 @@
     "command": "editor.action.addSelectionToNextFindMatch",
     "when": "editorFocus"
   },
-
   // {
   //   "key": "ctrl+b",
   //   "command": "workbench.view.search.toggleVisibility",
   //   "when": "editorReadonly"
   // },
-
   // TODO: Traverse search results with vim
   // {
   //   "key": "cmd+j",
   //   "command": "search.action.focusNextSearchResult",
   //   "when": "hasSearchResult && workbench.view.search.visible"
   // },
-
   // TODO: Select file from explorer.
   // {
   //   "key": "cmd+enter",
   //   "command": "filesExplorer.openFilePreserveFocus",
   //   "when": "explorerViewletVisible && filesExplorerFocus && !explorerResourceIsFolder && !inputFocus"
   // },
+  // Editor movement commands to copy/paste folders
+  {
+    "key": "ctrl+c",
+    "command": "editor.action.clipboardCopyAction",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "editor.action.clipboardPasteAction",
+    "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+c",
+    "command": "filesExplorer.copy",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceIsRoot && !inputFocus"
+  },
+  {
+    "key": "ctrl+v",
+    "command": "filesExplorer.paste",
+    "when": "filesExplorerFocus && foldersViewVisible && !explorerResourceReadonly && !inputFocus"
+  },
+  {
+    "key": "escape",
+    "command": "workbench.action.focusActiveEditorGroup",
+    "when": "filesExplorerFocus && !inputFocus"
+  }
 ]
