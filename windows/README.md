@@ -2,7 +2,7 @@
 
 # Setup
 - System > Multitask > Disable Snap Windows
--
+- [Disable] Stop Usb Devices When Screen is Off
 
 # Keybinds
 - power toys
